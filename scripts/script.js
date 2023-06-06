@@ -99,4 +99,5 @@ $(document).ready(function () {
   }).fail(function (jqxhr, textStatus, error) {
     console.error("Falha ao ler o arquivo JSON: " + error);
   });
+  
 });

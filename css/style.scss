@@ -7,12 +7,21 @@ $titleFont: 2.6rem;
 $BrandeisBlue: #0060F1;
 $PhilippineBlue: #003FA6;
 $BrandeisBlueTransparent: #02122b1a;
+$Bone: #E0DDCF;
+$Isabeline: #F1F0EA;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+}
+
+@mixin espacamento() {
+    padding: {
+        left: 1rem;
+        right: 1rem;
+    }
 }
 
 header {
@@ -23,7 +32,6 @@ header {
     section {
         height: auto;
         width: auto;
-
         nav.navbar {
             height: 6rem;
             width: 100%;
@@ -31,12 +39,20 @@ header {
                 left: 5rem;
                 right: 5rem;
             }
-
+            
             a.navbar-brand {
+                @include espacamento();
                 font: {
                     size: $titleFont;
+                    style: none;
                 }
-                color: $PhilippineBlue;
+                text: {
+                    decoration: none;
+                }
+                color: $Bone;
+                &:hover {
+                    color: $Isabeline;
+                }
             }
 
             div.collapse {
@@ -46,10 +62,10 @@ header {
                             size: $NormalFont;
                         }
 
-                        color: $BrandeisBlue;
+                        color: $Bone;
 
                         &:hover {
-                            color: $PhilippineBlue;
+                            color: $Isabeline;
                         }
                     }
                 }
