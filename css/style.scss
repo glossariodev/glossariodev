@@ -146,7 +146,7 @@ main {
                                 font: {
                                     size: $NormalFont
                                 }
-                                height: 20rem;
+                                height: 7rem;
                             }
                         }
 
@@ -170,9 +170,9 @@ main {
                     }
                 }
             }
-    }
+        }
 
-    div.divBuscas {
+        div.divBuscas {
         select {
             font: {
                 size: $NormalFont;
@@ -183,6 +183,17 @@ main {
                     }
                 }
             }
+
+        button#cleanBtn {
+            font: {
+                size: $NormalFont;
+            }
+            
+        }    
+        }
+
+        span#categorias{
+            margin-bottom: 1rem;
         }
     }    
-    }
+}
