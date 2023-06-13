@@ -15,7 +15,7 @@ $(document).ready(function () {
           title: "Termo", 
           className: "noVis", 
           render: function(data, type, row) {
-            return `<span class="mx-auto font-weight-bold text-center" id="termo">${data}</span>`;
+            return `<span class="mx-auto container font-weight-bold text-center" id="termo">${data}</span>`;
           }
         },
         { 

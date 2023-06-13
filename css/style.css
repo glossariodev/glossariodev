@@ -60,6 +60,9 @@ main section#tabela div#table_id_wrapper div.row div.col-sm-12 table#table_id th
   font-size: 1.6rem;
   text-align: center;
 }
+main section#tabela div#table_id_wrapper div.row div.col-sm-12 table#table_id tbody {
+  text-align: center;
+}
 main section#tabela div#table_id_wrapper div.row div.col-sm-12 table#table_id tbody tr.odd {
   background-color: rgba(2, 18, 43, 0.1019607843);
 }

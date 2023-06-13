@@ -27,13 +27,17 @@
     "Termo": "Agile",
     "Definição": "O Agile é um metodo de desenvolvimento de software que ajuda as empresas a projetar e construir produtos cujos requisitos são pouco conhecidos ou sujeito à mudanças.",
     "Dificuldade": "Profissional",
-    "Tags": "infraestrutura, conceitos"
+    "Tags": "infraestrutura, conceitos",
+    "link1": "https://learn.microsoft.com/pt-br/devops/plan/what-is-agile",
+    "link2": "https://www.totvs.com/blog/negocios/metodologia-agil/"
   },
   {
     "Termo": "Ajax",
     "Definição": "É o uso do objeto XMLHttpRequest para se comunicar com os scripts do lado do servidor. Ele pode enviar bem como receber informações em uma variedade de formatos, incluindo JSON, XML, HTML, e até mesmo arquivos de texto.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos, ferramentas, back-end, front-end"
+    "Tags": "conceitos, ferramentas, back-end, front-end",
+    "link1": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX",
+    "link2": "https://www.hostinger.com.br/tutoriais/o-que-e-ajax"
   },
   {
     "Termo": "Algoritimo",
