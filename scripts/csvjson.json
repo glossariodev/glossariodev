@@ -4,50 +4,24 @@
     "Definição": "A autenticação de dois fatores ou 2FA é o processo de autenticação em que dois fatores de autenticação são combinados. Ex: senha e SMS ou senha e app autenticador.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos, ferramentas, back-end",
-    "Links": {
-      "link1" : {
-        "url": "https://www.techtudo.com.br/noticias/2021/08/autenticacao-de-dois-fatores-o-que-e-e-para-que-serve-o-recurso.ghtml",
-        "titulo": "Autenticação de dois fatores: o que é e para que serve o recurso"
-      },
-      "link1" : {
-        "url": "https://www2.infobip.com/pt/blog/o-que-e-autenticacao-de-dois-fatores-2fa",
-        "titulo": "Guia completo da Autenticação de Dois Fatores (2FA) "
-      }
-    }
+    "link1": "https://www.infonova.com.br/seguranca/tudo-sobre-autenticacao-de-dois-fatores-2fa/",
+    "link2": "https://www.microsoft.com/pt-br/security/business/security-101/what-is-two-factor-authentication-2fa"
   },
   {
     "Termo": "Abstração",
     "Definição": "O termo abstração é usado para descrever a aplicação de conceitos de programação para problemas do mundo real de forma que os detalhes de implementação possam ser ignorados.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos, fundamentos.",
-    "Links": {
-          "link1": {
-            "url1": "https://www.freecodecamp.org/portuguese/news/os-quatro-pilares-da-programacao-orientada-a-objetos-com-javascript/",
-            "titulo1": "Abstração na Programação Orientada a Objetos"
-          },
-          "link2": {
-            "url2": "https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264",
-            "titulo": "Os 4 pilares da Programação Orientada a Objetoss"
-            }
-
-    },
+    "link1": "https://www.freecodecamp.org/portuguese/news/o-que-e-abstracao-em-programacao-e-por-que-ela-e-util/",
+    "link2": "https://developer.mozilla.org/pt-BR/docs/Glossary/Abstraction"
   },
   {
     "Termo": "Adaptative Design",
     "Definição": "É o processo de criação de vários layouts fixos para vários tamanhos de tela. Em resumo, um designer pode criar experiências completamente diferentes para telefones, tablets e desktops.",
     "Dificuldade": "Intermediário",
     "Tags": "conceitos, fundamentos, front-end, infraestrutura",
-        "Links": {
-          "link1": {
-            "url1": "https://miltonandrade.com/por-que-o-adaptive-web-design-para-sucesso-do-site/",
-            "titulo1": "Por que o Adaptive Web Design"
-          },
-          "link2": {
-            "url2": "https://www.fidelizarte.pt/blog/responsive-design-vs-adaptive-design/",
-            "titulo": "Responsive design vs Adaptive design"
-            }
-
-    },
+    "link1": "https://www.treinaweb.com.br/blog/o-que-e-asd-adaptative-software-development/",
+    "link2": "https://www.oficinadanet.com.br/post/13425-design-responsivo-ou-adaptativo-cada-um-tem-o-seu-lugar"
   },
   {
     "Termo": "Agile",

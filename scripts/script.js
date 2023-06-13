@@ -23,7 +23,9 @@ $(document).ready(function () {
           title: "Definição", 
           className: "noVis", 
           render: function(data, type, row) {
-            return `<span class="mx-auto text-justify text-center"  id="definicao">${data}</span>`;
+            let link1 = row.link1;
+            let link2 = row.link2;
+            return `<span class="mx-auto text-justify text-center"  id="definicao">${data}</span><br><a href="${link1}">${link1}</a><br><a href="${link2}">${link2}</a>`;
           }
         },
         { 
@@ -33,11 +35,11 @@ $(document).ready(function () {
           render: function(data, type, row) {
             switch (data) {
               case "Iniciante":
-                return `<span class="text-justify text-center btn btn-primary" id="nivel">Iniciante</span>`;
+                return `<span class="text-justify text-center btn btn-outline-dark" id="nivel">Iniciante</span>`;
               case "Intermediário":
-                return `<span class="text-center text-justify btn btn-primary"  id="nivel">Intermediário</span>`;
+                return `<span class="text-center text-justify btn btn-outline-dark"  id="nivel">Intermediário</span>`;
               case "Profissional":
-                return `<span class="text-center text-justify btn btn-primary"  id="nivel">Profissional</span>`;
+                return `<span class="text-center text-justify btn btn-outline-dark"  id="nivel">Profissional</span>`;
               default:
                 return data;
             }
@@ -51,7 +53,7 @@ $(document).ready(function () {
             const categorias = data.split(",");
             let tagsHTML = "";
             categorias.forEach(function(categoria) {
-              tagsHTML += `<span class="text-justify text-center btn btn-primary btn-group-sm" style="" id="categorias">${categoria}</span> `;
+              tagsHTML += `<span class="text-justify text-center btn btn-outline-dark btn-group-sm" id="categorias">${categoria}</span> `;
             });
             return tagsHTML;
           }
