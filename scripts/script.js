@@ -25,7 +25,7 @@ $(document).ready(function () {
           render: function(data, type, row) {
             let link1 = row.link1;
             let link2 = row.link2;
-            return `<span class="mx-auto text-justify text-center"  id="definicao">${data}</span><br><a href="${link1}">${link1}</a><br><a href="${link2}">${link2}</a>`;
+            return `<span class="mx-auto text-justify text-center"  id="definicao">${data}</span><br><a href="${link1}" target="_blank">${link1}</a><br><a href="${link2}" target="_blank">${link2}</a>`;
           }
         },
         { 
@@ -98,8 +98,16 @@ $(document).ready(function () {
     $("#cleanBtn").on("click", function () {
       $(".form-control").val("").trigger("input");
     });
+
+    var urlParams = new URLSearchParams(window.location.search);
+    var termoPesquisa = urlParams.get('termo');
+
+    if (termoPesquisa) {
+      var conteudoDecodificado = decodeURIComponent(termoPesquisa);
+      $(".form-control").val(conteudoDecodificado).trigger("input");
+    }
   }).fail(function (jqxhr, textStatus, error) {
     console.error("Falha ao ler o arquivo JSON: " + error);
-  });
-  
+  }); 
+
 });

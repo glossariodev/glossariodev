@@ -87,6 +87,9 @@ main section#tabela div#table_id_wrapper div.row div.col-sm-12 div#table_id_info
 main section#tabela div#table_id_wrapper div.row div.col-sm-12 div#table_id_paginate ul.pagination li {
   font-size: 1.6rem;
 }
+main section#tabela div.divBuscas {
+  margin-bottom: 1rem;
+}
 main section#tabela div.divBuscas select {
   font-size: 1.6rem;
 }

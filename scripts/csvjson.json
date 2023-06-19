@@ -43,109 +43,146 @@
     "Termo": "Algoritimo",
     "Definição": "Sequência finita de regras, raciocínios ou operações que, aplicada a um número finito de dados, permite solucionar classes semelhantes de problemas.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos, conceitos, infraestrututa"
+    "Tags": "fundamentos, conceitos, infraestrututa",
+    "link1": "https://rockcontent.com/br/blog/algoritmo/",
+    "link2": "https://www.significados.com.br/algoritmo/"
   },
   {
     "Termo": "AngularJs",
     "Definição": "O AngularJS é um framework de código aberto usado para construir a interface de aplicativos web.",
     "Dificuldade": "Intermediário",
-    "Tags": "bibliotecas/framework, front-end, ferramentas"
+    "Tags": "biblioteca, framework, front-end, ferramentas",
+    "link1": "https://docs.angularjs.org/guide",
+    "link2": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started"
   },
   {
     "Termo": "Apache",
     "Definição": "O Apache é um servidor web open source. Ele é um dos produtos mais populares da Apache Software Foundation, e é amplamente utilizado para a hospedagem de sites e aplicações web.",
     "Dificuldade": "Intermediário",
-    "Tags": "infraestrutura, ferramentas"
+    "Tags": "infraestrutura, ferramentas",
+    "link1": "https://httpd.apache.org/docs/trunk/pt-br/",
+    "link2": "https://httpd.apache.org/docs/"
+
   },
   {
     "Termo": "API",
     "Definição": "Uma API (application programming interface) é a interface de programação de um aplicativo que permite a interação com outros aplicativos.",
     "Dificuldade": "Iniciante",
-    "Tags": "infraestrutura, conceitos, fundamentos"
+    "Tags": "infraestrutura, conceitos, fundamentos",
+    "link1": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Introduction",
+    "link2": "https://aws.amazon.com/pt/what-is/api/"
   },
   {
     "Termo": "Aplicação Monolítica",
     "Definição": "Uma aplicação monolítica é uma aplicação que consiste em um único componente executável. Isso significa que todos os componentes do software estão contidos e executados dentro do mesmo processo e acessam uma única base de dados.",
     "Dificuldade": "Profissional",
-    "Tags": "conceitos, infraestrutura"
+    "Tags": "conceitos, infraestrutura",
+    "link1": "https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/",
+    "link2": "https://dev.to/shadowlik/o-que-e-um-sistema-aplicacao-monolito-monolitica-3o14"
   },
   {
     "Termo": "App",
     "Definição": "Programa de computador concebido para processar dados eletronicamente, facilitando e reduzindo o tempo de execução de uma tarefa pelo usuário.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, ferramentas"
+    "Tags": "conceitos, ferramentas",
+    "link1": "https://edu.gcfglobal.org/pt/informatica-basica/o-que-e-um-aplicativo-ou-um-programa/1/",
+    "link2": "https://www.educamaisbrasil.com.br/educacao/dicas/o-que-significa-app"
   },
   {
     "Termo": "Arquitetura Hexagonal",
     "Definição": "A arquitetura hexagonal é uma estrutura de software que visa facilitar o desenvolvimento de aplicações altamente flexíveis e evolutivas.",
     "Dificuldade": "Profissional",
-    "Tags": "conceitos, infraestrutura"
+    "Tags": "conceitos, infraestrutura",
+    "link1": "https://engsoftmoderna.info/artigos/arquitetura-hexagonal.html",
+    "link2": "https://diegoborgs.com.br/blog/arquitetura-hexagonal-%C3%A9-arquitetura-%C3%A9-hexagonal/"
   },
   {
     "Termo": "Array",
     "Definição": "Um array é um conjunto de dados que podem ser acessados pelo índice de cada elemento. Arrays são muito úteis para guardar valores em uma estrutura de dados e podem ser usados em muitas situações diferentes.",
     "Dificuldade": "essencial",
-    "Tags": "fundamentos, conceitos"
-  },
+    "Tags": "fundamentos, conceitos",
+    "link1": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "link2": "https://kenzie.com.br/blog/o-que-array/"
+   },
   {
     "Termo": "Ascii",
     "Definição": "ASCII é um código de símbolos que usa 7 bits para representar um conjunto de caracteres. É um dos códigos de caracteres mais antigos e mais amplamente utilizados e está incluído em muitos formatos de texto.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, conceitos, fundamentos"
+    "Tags": "ferramentas, conceitos, fundamentos",
+    "link1": "https://pt.wikipedia.org/wiki/ASCII",
+    "link2": "https://br.ccm.net/contents/54-o-codigo-ascii"
   },
   {
     "Termo": "Atributos",
     "Definição": "Em computação, um atributo é uma propriedade associada a um objeto, que pode ser acessada e manipulada pelos métodos do objeto.",
     "Dificuldade": "Iniciante",
-    "Tags": "infraestrutura, conceitos, fundamentos"
+    "Tags": "infraestrutura, conceitos, fundamentos",
+    "link1": "https://pt.wikibooks.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos/Atributos_e_m%C3%A9todos",
+    "link2": "https://pt.estudyando.com/o-que-e-um-atributo-em-programacao-de-computador-definicao-e-exemplos/"
   },
   {
     "Termo": "Autenticação",
     "Definição": "A autenticação é o processo de verificar a identidade de um usuário. Geralmente, isso é feito através da entrada de um nome de usuário e uma senha.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, ferramentas"
+    "Tags": "conceitos, ferramentas",
+    "link1": "https://www.cloudflare.com/pt-br/learning/access-management/what-is-authentication/",
+    "link2": "https://www.incognia.com/pt/dicionario-da-autenticacao-mobile/o-que-e-autenticacao"
   },
   {
     "Termo": "Autorização",
     "Definição": "Autorização é o processo de conceder a um usuário ou programa acesso a determinadas informações ou recursos. O processo de autorização geralmente envolve a verificação de se o usuário tem as permissões adequadas para executar a ação desejada.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": "https://www.kaspersky.com.br/blog/identification-authentication-authorization-difference/16078/",
+    "link2": "https://conceito.de/autorizacao"
   },
   {
     "Termo": "AWS",
     "Definição": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo.",
     "Dificuldade": "Intermediário",
-    "Tags": "infraestrutura, ferramentas,  back-end"
+    "Tags": "infraestrutura, ferramentas,  back-end",
+    "link1": "https://docs.aws.amazon.com/pt_br/",
+    "link2": "https://docs.aws.amazon.com/pt_br/amazonswf/latest/developerguide/swf-welcome.html"
   },
   {
     "Termo": "Back-End",
     "Definição": "Back-end se relaciona com o que está por trás das aplicações desenvolvidas na programação. Ou seja, tudo que dá estrutura e apoio às ações do usuário, como o armazenamento de dados e a integração com outros sistemas.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos"
+    "Tags": "conceitos, fundamentos",
+    "link1": "https://www.totvs.com/blog/developers/back-end/",
+    "link2": "https://harve.com.br/blog/desenvolvimento-web/o-que-e-backend-guia-completo/"
   },
   {
     "Termo": "Backlog",
     "Definição": "Backlog é uma “pilha de pedidos” em espera.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos, infraestrutura"
+    "Tags": "conceitos, infraestrutura",
+    "link1": "https://blog.runrun.it/backlog/",
+    "link2": "https://blog.betrybe.com/tecnologia/o-que-e-backlog/"
   },
   {
     "Termo": "Sprint Velocity",
     "Definição": "Uma medida de tempo (dias, horas etc) que representa o período em que uma determinada força de trabalho (equipe) pode finalizar uma determinada carteira acumulada de serviços.",
     "Dificuldade": "Profissional",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": "https://linearb.io/blog/sprint-velocity/",
+    "link2": "https://artia.com/blog/sprint/"
   },
   {
     "Termo": "Backup",
     "Definição": "O termo americano backup significa “cópia de segurança”, e corresponde a criação e armazenamento de cópias de arquivos digitais importantes, de modo que seja possível realizar sua restauração em caso de perda dos arquivos originais.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": "https://tecnoblog.net/responde/o-que-e-backup/",
+    "link2": "https://rockcontent.com/br/blog/backup/"
   },
   {
     "Termo": "Banco de Dados",
     "Definição": "Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador (servidor).",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, conceitos, fundamentos, infraestrutura"
+    "Tags": "ferramentas, conceitos, fundamentos, infraestrutura",
+    "link1": "https://www.oracle.com/br/database/what-is-database/",
+    "link2": "https://www.totvs.com/blog/negocios/banco-de-dados/"
   },
   {
     "Termo": "Biblioteca",
@@ -169,7 +206,7 @@
     "Termo": "Bootstrap",
     "Definição": "Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, biblioteca/framework"
+    "Tags": "ferramentas, biblioteca, framework"
   },
   {
     "Termo": "Branch",
@@ -403,7 +440,7 @@
     "Termo": "Day.js",
     "Definição": "Day. js é uma pequena biblioteca JavaScript que nos permite parsear, manipular, validar e mostrar datas e horários em navegadores modernos.",
     "Dificuldade": "Intermediário",
-    "Tags": "bibliotecas"
+    "Tags": "biblioteca"
   },
   {
     "Termo": "DBMS",
@@ -1261,7 +1298,7 @@
     "Termo": "Ruby on Rails",
     "Definição": "Um conjunto de bibliotecas escritas em Ruby que facilitam a criação de aplicações web.",
     "Dificuldade": "Intermediário",
-    "Tags": "bibliotecas"
+    "Tags": "biblioteca"
   },
   {
     "Termo": "Saas",
@@ -1669,6 +1706,6 @@
     "Termo": "Yup",
     "Definição": "YupJs é uma biblioteca de validação JavaScript para uso com o React. Ele pode ser usado para validar o formulário antes de enviá-lo para o servidor ou para fazer validações mais complexas no lado do cliente.",
     "Dificuldade": "Intermediário",
-    "Tags": "bibliotecas"
+    "Tags": "biblioteca"
   }
 ]
