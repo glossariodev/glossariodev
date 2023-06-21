@@ -234,3 +234,24 @@ main {
         }
     }    
 }
+
+.equalWidth {
+    width: 12rem;
+    margin-top: .5rem;
+}
+
+input.form-control {
+    height: 3.5rem;
+    font: {
+        size: $NormalFont;
+    }
+}
+
+select.form-control {
+    height: 3rem;
+    width: auto;
+    margin: {
+        left: 1rem;
+        right: 1rem;
+    }
+}

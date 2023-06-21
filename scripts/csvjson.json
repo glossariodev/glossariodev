@@ -4,64 +4,111 @@
     "Definição": "A autenticação de dois fatores ou 2FA é o processo de autenticação em que dois fatores de autenticação são combinados. Ex: senha e SMS ou senha e app autenticador.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos, ferramentas, back-end",
-    "link1": "https://www.infonova.com.br/seguranca/tudo-sobre-autenticacao-de-dois-fatores-2fa/",
-    "link2": "https://www.microsoft.com/pt-br/security/business/security-101/what-is-two-factor-authentication-2fa"
+    "link1": {
+      "titulo": "Tudo Sobre autenticação de dois fatores",
+      "link": "https://www.infonova.com.br/seguranca/tudo-sobre-autenticacao-de-dois-fatores-2fa/"
+      },
+    "link2": {
+      "titulo": "O que é autenticação de dois fatores?",
+      "link": "https://www.microsoft.com/pt-br/security/business/security-101/what-is-two-factor-authentication-2fa"
+      }
   },
   {
     "Termo": "Abstração",
     "Definição": "O termo abstração é usado para descrever a aplicação de conceitos de programação para problemas do mundo real de forma que os detalhes de implementação possam ser ignorados.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos.",
-    "link1": "https://www.freecodecamp.org/portuguese/news/o-que-e-abstracao-em-programacao-e-por-que-ela-e-util/",
-    "link2": "https://developer.mozilla.org/pt-BR/docs/Glossary/Abstraction"
+    "Tags": "conceitos, fundamentos",
+    "link1": {
+      "titulo": "O que é abstraão?",
+      "link": "https://www.freecodecamp.org/portuguese/news/o-que-e-abstracao-em-programacao-e-por-que-ela-e-util/"
+      },
+    "link2": {
+      "titulo": "Definição de abstração",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Abstraction"
+      }
   },
   {
     "Termo": "Adaptative Design",
     "Definição": "É o processo de criação de vários layouts fixos para vários tamanhos de tela. Em resumo, um designer pode criar experiências completamente diferentes para telefones, tablets e desktops.",
     "Dificuldade": "Intermediário",
     "Tags": "conceitos, fundamentos, front-end, infraestrutura",
-    "link1": "https://www.treinaweb.com.br/blog/o-que-e-asd-adaptative-software-development/",
-    "link2": "https://www.oficinadanet.com.br/post/13425-design-responsivo-ou-adaptativo-cada-um-tem-o-seu-lugar"
+    "link1": {
+      "titulo": "O que é Adaptative Design",
+      "link": "https://www.treinaweb.com.br/blog/o-que-e-asd-adaptative-software-development/"
+    },
+    "link2": {
+        "titulo": "Design responsivo ou adaptativo cada um em seu lugar",
+        "link": "https://www.oficinadanet.com.br/post/13425-design-responsivo-ou-adaptativo-cada-um-tem-o-seu-lugar"
+        }
   },
   {
     "Termo": "Agile",
     "Definição": "O Agile é um metodo de desenvolvimento de software que ajuda as empresas a projetar e construir produtos cujos requisitos são pouco conhecidos ou sujeito à mudanças.",
     "Dificuldade": "Profissional",
     "Tags": "infraestrutura, conceitos",
-    "link1": "https://learn.microsoft.com/pt-br/devops/plan/what-is-agile",
-    "link2": "https://www.totvs.com/blog/negocios/metodologia-agil/"
+    "link1": {
+      "titulo": "O que é Agile?",
+      "link": "https://learn.microsoft.com/pt-br/devops/plan/what-is-agile"
+    },
+    "link2": {
+      "titulo": "Metodologia Agil",
+      "link": "https://www.totvs.com/blog/negocios/metodologia-agil/"
+    }
   },
   {
     "Termo": "Ajax",
     "Definição": "É o uso do objeto XMLHttpRequest para se comunicar com os scripts do lado do servidor. Ele pode enviar bem como receber informações em uma variedade de formatos, incluindo JSON, XML, HTML, e até mesmo arquivos de texto.",
     "Dificuldade": "Intermediário",
     "Tags": "conceitos, ferramentas, back-end, front-end",
-    "link1": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX",
-    "link2": "https://www.hostinger.com.br/tutoriais/o-que-e-ajax"
+    "link1": {
+      "titulo": "Documentação Ajax",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX"
+    },
+    "link2": {
+      "titulo": "O que é AJAX?",
+      "link": "https://www.hostinger.com.br/tutoriais/o-que-e-ajax"
+    }
   },
   {
     "Termo": "Algoritimo",
     "Definição": "Sequência finita de regras, raciocínios ou operações que, aplicada a um número finito de dados, permite solucionar classes semelhantes de problemas.",
     "Dificuldade": "Iniciante",
     "Tags": "fundamentos, conceitos, infraestrututa",
-    "link1": "https://rockcontent.com/br/blog/algoritmo/",
-    "link2": "https://www.significados.com.br/algoritmo/"
+    "link1": {
+      "titulo": "O que é algoritmo?",
+      "link": "https://rockcontent.com/br/blog/algoritmo/"
+      },
+    "link2": {
+      "titulo": "significado de Algoritimo",
+      "link" :"https://www.significados.com.br/algoritmo/"
+      }
   },
   {
     "Termo": "AngularJs",
     "Definição": "O AngularJS é um framework de código aberto usado para construir a interface de aplicativos web.",
     "Dificuldade": "Intermediário",
     "Tags": "biblioteca, framework, front-end, ferramentas",
-    "link1": "https://docs.angularjs.org/guide",
-    "link2": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started"
+    "link1": {
+      "titulo": "Angular documentação",
+      "link": "https://docs.angularjs.org/guide"
+      },
+    "link2": {
+      "titulo": "Angular documentação webdocs",
+      "link": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started"}
   },
   {
     "Termo": "Apache",
     "Definição": "O Apache é um servidor web open source. Ele é um dos produtos mais populares da Apache Software Foundation, e é amplamente utilizado para a hospedagem de sites e aplicações web.",
     "Dificuldade": "Intermediário",
     "Tags": "infraestrutura, ferramentas",
-    "link1": "https://httpd.apache.org/docs/trunk/pt-br/",
-    "link2": "https://httpd.apache.org/docs/"
+    "link1": {
+      "titulo": "Documentação apache Pt-Br",
+      "link": "https://httpd.apache.org/docs/trunk/pt-br/"
+      },
+    "link2": {
+      "titulo": "O que é apache?",
+      "link": "https://www.hostinger.com.br/tutoriais/o-que-e-apache"
+      }
 
   },
   {
@@ -69,120 +116,207 @@
     "Definição": "Uma API (application programming interface) é a interface de programação de um aplicativo que permite a interação com outros aplicativos.",
     "Dificuldade": "Iniciante",
     "Tags": "infraestrutura, conceitos, fundamentos",
-    "link1": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Introduction",
-    "link2": "https://aws.amazon.com/pt/what-is/api/"
+    "link1": {
+      "titulo": "Introdução a APIs",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
+      },
+    "link2": {
+      "titulo": "O que é API?",
+      "link": "https://aws.amazon.com/pt/what-is/api/"
+      }
   },
   {
     "Termo": "Aplicação Monolítica",
     "Definição": "Uma aplicação monolítica é uma aplicação que consiste em um único componente executável. Isso significa que todos os componentes do software estão contidos e executados dentro do mesmo processo e acessam uma única base de dados.",
     "Dificuldade": "Profissional",
     "Tags": "conceitos, infraestrutura",
-    "link1": "https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/",
-    "link2": "https://dev.to/shadowlik/o-que-e-um-sistema-aplicacao-monolito-monolitica-3o14"
+    "link1": {
+      "titulo": "O que é aplicacao monolitica?",
+      "link": "https://marquesfernandes.com/tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/"
+      },
+    "link2": {
+      "titulo": "Definição de aplicacao monolitica",
+      "link": "https://dev.to/shadowlik/o-que-e-um-sistema-aplicacao-monolito-monolitica-3o14"
+      }
   },
   {
     "Termo": "App",
     "Definição": "Programa de computador concebido para processar dados eletronicamente, facilitando e reduzindo o tempo de execução de uma tarefa pelo usuário.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos, ferramentas",
-    "link1": "https://edu.gcfglobal.org/pt/informatica-basica/o-que-e-um-aplicativo-ou-um-programa/1/",
-    "link2": "https://www.educamaisbrasil.com.br/educacao/dicas/o-que-significa-app"
+    "link1": {
+      "titulo": "O que é um app ou um programa?",
+      "link": "https://edu.gcfglobal.org/pt/informatica-basica/o-que-e-um-aplicativo-ou-um-programa/1/"
+      },
+    "link2": {
+      "titulo": "O que significa app?",
+      "link": "https://www.educamaisbrasil.com.br/educacao/dicas/o-que-significa-app"
+      }
   },
   {
     "Termo": "Arquitetura Hexagonal",
     "Definição": "A arquitetura hexagonal é uma estrutura de software que visa facilitar o desenvolvimento de aplicações altamente flexíveis e evolutivas.",
     "Dificuldade": "Profissional",
     "Tags": "conceitos, infraestrutura",
-    "link1": "https://engsoftmoderna.info/artigos/arquitetura-hexagonal.html",
-    "link2": "https://diegoborgs.com.br/blog/arquitetura-hexagonal-%C3%A9-arquitetura-%C3%A9-hexagonal/"
+    "link1": {
+      "titulo": "O que é arquitetura hexagonal?",
+      "link": "https://engsoftmoderna.info/artigos/arquitetura-hexagonal.html"
+      },
+    "link2": {
+      "titulo": "Definição de arquitetura hexagonal",
+      "link": "https://diegoborgs.com.br/blog/arquitetura-hexagonal-%C3%A9-arquitetura-%C3%A9-hexagonal/"
+      }
   },
   {
     "Termo": "Array",
     "Definição": "Um array é um conjunto de dados que podem ser acessados pelo índice de cada elemento. Arrays são muito úteis para guardar valores em uma estrutura de dados e podem ser usados em muitas situações diferentes.",
     "Dificuldade": "essencial",
     "Tags": "fundamentos, conceitos",
-    "link1": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array",
-    "link2": "https://kenzie.com.br/blog/o-que-array/"
+    "link1": {
+      "titulo": "O que é um array?",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array"
+      },
+    "link2": {
+      "titulo": "Definição de array",
+      "link": "https://kenzie.com.br/blog/o-que-array/"}
    },
   {
     "Termo": "Ascii",
     "Definição": "ASCII é um código de símbolos que usa 7 bits para representar um conjunto de caracteres. É um dos códigos de caracteres mais antigos e mais amplamente utilizados e está incluído em muitos formatos de texto.",
     "Dificuldade": "Iniciante",
     "Tags": "ferramentas, conceitos, fundamentos",
-    "link1": "https://pt.wikipedia.org/wiki/ASCII",
-    "link2": "https://br.ccm.net/contents/54-o-codigo-ascii"
+    "link1": {
+      "titulo": "O que é ASCII e seus códigos",
+      "link": "https://pt.wikipedia.org/wiki/ASCII"
+      },
+    "link2": {
+      "titulo": "O código ASCII",
+      "link": "https://br.ccm.net/contents/54-o-codigo-ascii"
+      }
   },
   {
     "Termo": "Atributos",
     "Definição": "Em computação, um atributo é uma propriedade associada a um objeto, que pode ser acessada e manipulada pelos métodos do objeto.",
     "Dificuldade": "Iniciante",
     "Tags": "infraestrutura, conceitos, fundamentos",
-    "link1": "https://pt.wikibooks.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos/Atributos_e_m%C3%A9todos",
-    "link2": "https://pt.estudyando.com/o-que-e-um-atributo-em-programacao-de-computador-definicao-e-exemplos/"
+    "link1": {
+      "titulo": "O que são atributos?",
+      "link": "https://pt.wikibooks.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos/Atributos_e_m%C3%A9todos"
+      },
+    "link2": {
+      "titulo": "Atributos: definição e exemplos",
+      "link": "https://pt.estudyando.com/o-que-e-um-atributo-em-programacao-de-computador-definicao-e-exemplos/"
+      }
   },
   {
     "Termo": "Autenticação",
     "Definição": "A autenticação é o processo de verificar a identidade de um usuário. Geralmente, isso é feito através da entrada de um nome de usuário e uma senha.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos, ferramentas",
-    "link1": "https://www.cloudflare.com/pt-br/learning/access-management/what-is-authentication/",
-    "link2": "https://www.incognia.com/pt/dicionario-da-autenticacao-mobile/o-que-e-autenticacao"
+    "link1": {
+      "titulo": "O que é antenticação?",
+      "link": "https://www.cloudflare.com/pt-br/learning/access-management/what-is-authentication/"
+      },
+    "link2": {
+      "titulo": "Definição de autenticação",
+      "link": "https://www.incognia.com/pt/dicionario-da-autenticacao-mobile/o-que-e-autenticacao"}
   },
   {
     "Termo": "Autorização",
     "Definição": "Autorização é o processo de conceder a um usuário ou programa acesso a determinadas informações ou recursos. O processo de autorização geralmente envolve a verificação de se o usuário tem as permissões adequadas para executar a ação desejada.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos",
-    "link1": "https://www.kaspersky.com.br/blog/identification-authentication-authorization-difference/16078/",
-    "link2": "https://conceito.de/autorizacao"
+    "link1": {
+      "titulo": "O que é autorização?",
+      "link": "https://www.kaspersky.com.br/blog/identification-authentication-authorization-difference/16078/"
+      },
+    "link2": {
+      "titulo": "Qual o conceito de autorização?",
+      "link": "https://conceito.de/autorizacao"
+      }
   },
   {
     "Termo": "AWS",
     "Definição": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo.",
     "Dificuldade": "Intermediário",
-    "Tags": "infraestrutura, ferramentas,  back-end",
-    "link1": "https://docs.aws.amazon.com/pt_br/",
-    "link2": "https://docs.aws.amazon.com/pt_br/amazonswf/latest/developerguide/swf-welcome.html"
+    "Tags": "infraestrutura, ferramentas, back-end",
+    "link1": {
+      "titulo": "Documentação AWS pr-br",
+      "link": "https://docs.aws.amazon.com/pt_br/"
+      },
+    "link2": {
+      "titulo": "documentação AWS",
+      "link": "https://docs.aws.amazon.com/pt_br/amazonswf/latest/developerguide/swf-welcome.html"
+      }
   },
   {
     "Termo": "Back-End",
     "Definição": "Back-end se relaciona com o que está por trás das aplicações desenvolvidas na programação. Ou seja, tudo que dá estrutura e apoio às ações do usuário, como o armazenamento de dados e a integração com outros sistemas.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos, fundamentos",
-    "link1": "https://www.totvs.com/blog/developers/back-end/",
-    "link2": "https://harve.com.br/blog/desenvolvimento-web/o-que-e-backend-guia-completo/"
+    "link1": {
+      "titulo": "Conceito de back-end",
+      "link": "https://www.totvs.com/blog/developers/back-end/"
+      },
+    "link2": {
+      "titulo": "O que é back-end?",
+      "link": "https://harve.com.br/blog/desenvolvimento-web/o-que-e-backend-guia-completo/"
+      }
   },
   {
     "Termo": "Backlog",
     "Definição": "Backlog é uma “pilha de pedidos” em espera.",
     "Dificuldade": "Intermediário",
     "Tags": "conceitos, infraestrutura",
-    "link1": "https://blog.runrun.it/backlog/",
-    "link2": "https://blog.betrybe.com/tecnologia/o-que-e-backlog/"
+    "link1": {
+      "titulo": "O que é backlog?",
+      "link": "https://blog.runrun.it/backlog/"
+      },
+    "link2": {
+      "titulo": "Definição de backlog",
+      "link": "https://blog.betrybe.com/tecnologia/o-que-e-backlog/"
+      }
   },
   {
     "Termo": "Sprint Velocity",
     "Definição": "Uma medida de tempo (dias, horas etc) que representa o período em que uma determinada força de trabalho (equipe) pode finalizar uma determinada carteira acumulada de serviços.",
     "Dificuldade": "Profissional",
     "Tags": "conceitos",
-    "link1": "https://linearb.io/blog/sprint-velocity/",
-    "link2": "https://artia.com/blog/sprint/"
+    "link1": {
+      "titulo": "O que é Spring Velocity?",
+      "link": "https://linearb.io/blog/sprint-velocity/"
+      },
+    "link2": {
+      "titulo": "Definição de spring velocity",
+      "link": "https://artia.com/blog/sprint/"
+      }
   },
   {
     "Termo": "Backup",
     "Definição": "O termo americano backup significa “cópia de segurança”, e corresponde a criação e armazenamento de cópias de arquivos digitais importantes, de modo que seja possível realizar sua restauração em caso de perda dos arquivos originais.",
     "Dificuldade": "Iniciante",
     "Tags": "conceitos",
-    "link1": "https://tecnoblog.net/responde/o-que-e-backup/",
-    "link2": "https://rockcontent.com/br/blog/backup/"
+    "link1": {
+      "titulo": "O que é um backup?",
+      "link": "https://tecnoblog.net/responde/o-que-e-backup/"
+      },
+    "link2": {
+      "titulo": "Definição de backup",
+      "link": "https://rockcontent.com/br/blog/backup/"}
   },
   {
     "Termo": "Banco de Dados",
     "Definição": "Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador (servidor).",
     "Dificuldade": "Iniciante",
     "Tags": "ferramentas, conceitos, fundamentos, infraestrutura",
-    "link1": "https://www.oracle.com/br/database/what-is-database/",
-    "link2": "https://www.totvs.com/blog/negocios/banco-de-dados/"
+    "link1": {
+      "titulo": "O que é um banco de dados?",
+      "link": "https://www.oracle.com/br/database/what-is-database/"
+      },
+    "link2": {
+      "titulo": "Banco de dados",
+      "link": "https://www.totvs.com/blog/negocios/banco-de-dados/"
+      }
   },
   {
     "Termo": "Biblioteca",
@@ -662,7 +796,7 @@
     "Termo": "Git",
     "Definição": "O git é um software desenvolvido para o controle de alterações do código de um projeto, facilitando que vários desenvolvedores trabalhem ao mesmo tempo, de maneira rápida e eficiente.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas. Infraestrutura"
+    "Tags": "ferramentas, Infraestrutura"
   },
   {
     "Termo": "GitHub",
