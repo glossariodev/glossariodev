@@ -3,14 +3,14 @@ $(document).ready(function () {
 
   // Método AJAX para obtenção de dados JSON
   $.ajax({
-    url: './scripts/csvjson.json',
-    dataType: 'json',
+    url: "./scripts/csvjson.json",
+    dataType: "json",
     success: function (data) {
-      var table = $('#table_id').DataTable({
+      var table = $("#table_id").DataTable({
         data: data,
         bAutoWidth: false,
         language: {
-          url: 'https://cdn.datatables.net/plug-ins/1.12.1/i18n/pt-BR.json',
+          url: "https://cdn.datatables.net/plug-ins/1.12.1/i18n/pt-BR.json",
         },
         columns: [
           {
@@ -19,20 +19,20 @@ $(document).ready(function () {
             className: "noVis",
             render: function (data, type, row) {
               return `<span class="mx-auto container font-weight-bold text-center" id="termo">${data}</span>`;
-            }
+            },
           },
           {
             data: "Definição",
             title: "Definição",
             className: "noVis",
             render: function (data, type, row) {
-              let link1 = row.link1 ? row.link1.link : '';
-              let link2 = row.link2 ? row.link2.link : '';
-              let titulo1 = row.link1 ? row.link1.titulo : '';
-              let titulo2 = row.link2 ? row.link2.titulo : '';
+              let link1 = row.link1 ? row.link1.link : "";
+              let link2 = row.link2 ? row.link2.link : "";
+              let titulo1 = row.link1 ? row.link1.titulo : "";
+              let titulo2 = row.link2 ? row.link2.titulo : "";
 
               return `<span class="mx-auto text-justify text-center"  id="definicao">${data}</span><br><a  href="${link1}" target="_blank">${titulo1}</a><br><a  href="${link2}" target="_blank">${titulo2}</a>`;
-            }
+            },
           },
           {
             data: "Dificuldade",
@@ -49,7 +49,7 @@ $(document).ready(function () {
                 default:
                   return data;
               }
-            }
+            },
           },
           {
             data: "Tags",
@@ -62,17 +62,17 @@ $(document).ready(function () {
                 tagsHTML += `<span class="text-justify equalWidth text-center btn btn-outline-dark btn-group-sm" id="categorias">${categoria}</span> `;
               });
               return tagsHTML;
-            }
-          }
-        ]
+            },
+          },
+        ],
       });
 
       var selectedDificuldades = new Set();
       var selectedTags = new Set();
 
-      $('#table_id').on('click', 'span#categorias, span#nivel', function () {
+      $("#table_id").on("click", "span#categorias, span#nivel", function () {
         var clickedText = $(this).text().trim();
-        var searchBox = $('.form-control, .form-control-sm');
+        var searchBox = $(".form-control, .form-control-sm");
         var currentSearchValue = searchBox.val().trim();
 
         // Verifica se o termo já está presente na caixa de pesquisa
@@ -80,7 +80,7 @@ $(document).ready(function () {
           // Verifica se a caixa de pesquisa já contém algum valor
           if (currentSearchValue.length > 0) {
             // Adiciona o valor clicado à caixa de pesquisa separado por vírgula
-            searchBox.val(currentSearchValue + ' ' + clickedText);
+            searchBox.val(currentSearchValue + " " + clickedText);
           } else {
             // Define o valor clicado como o valor da caixa de pesquisa
             searchBox.val(clickedText);
@@ -100,7 +100,11 @@ $(document).ready(function () {
         var searchBoxValue = $(".form-control, .form-control-sm").val().trim();
         var clearButton = $("#clearBtn");
 
-        if (searchBoxValue.length > 0 || selectedDificuldades.size > 0 || selectedTags.size > 0) {
+        if (
+          searchBoxValue.length > 0 ||
+          selectedDificuldades.size > 0 ||
+          selectedTags.size > 0
+        ) {
           clearButton.removeAttr("disabled");
         } else {
           clearButton.prop("disabled", true);
@@ -112,15 +116,17 @@ $(document).ready(function () {
       });
 
       var urlParams = new URLSearchParams(window.location.search);
-      var termoPesquisa = urlParams.get('termo');
+      var termoPesquisa = urlParams.get("termo");
 
       if (termoPesquisa) {
         var conteudoDecodificado = decodeURIComponent(termoPesquisa);
-        $(".form-control, .form-control-sm").val(conteudoDecodificado).trigger("input");
+        $(".form-control, .form-control-sm")
+          .val(conteudoDecodificado)
+          .trigger("input");
       }
 
-      $('#table_id').on('click', 'span#nivel', function () {
-        var clickedDificuldade = $(this).attr('data-dificuldade');
+      $("#table_id").on("click", "span#nivel", function () {
+        var clickedDificuldade = $(this).attr("data-dificuldade");
 
         if (selectedDificuldades.has(clickedDificuldade)) {
           selectedDificuldades.delete(clickedDificuldade);
@@ -133,20 +139,6 @@ $(document).ready(function () {
     },
     error: function (jqxhr, textStatus, error) {
       console.error("Falha ao ler o arquivo JSON: " + error);
-    }
-  });
-
-  $("#selectDificuldade").change(function() {
-    var selectedOptions = $(this).val(); // Obtém os valores selecionados
-
-    if (selectedOptions) {
-      var searchText = selectedOptions.join(" "); // Junta os valores selecionados separados por espaço
-      $(".form-control").val(searchText); // Define o valor na caixa de pesquisa
-    } else {
-      $(".form-control").val(""); // Limpa o valor da caixa de pesquisa
-    }
-
-    table.search($(".form-control").val()).draw(); // Executa a pesquisa na tabela
-    updateClearButton();
+    },
   });
 });

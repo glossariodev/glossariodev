@@ -6,252 +6,242 @@ $Subtitle1Font: 1.8rem;
 $Subtitle2Font: 2rem;
 $titleFont: 2.4rem;
 
-$BrandeisBlue: #0060F1;
-$PhilippineBlue: #003FA6;
+$BrandeisBlue: #0060f1;
+$PhilippineBlue: #003fa6;
 $BrandeisBlueTransparent: #02122b1a;
-$Bone: #E0DDCF;
-$Isabeline: #F1F0EA;
+$Bone: #e0ddcf;
+$Isabeline: #f1f0ea;
 
 // configs globais
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 // mixins, keyframes, etc
 
 @mixin espacamento() {
-    padding: {
-        left: 1rem;
-        right: 1rem;
-    }
+  padding: {
+    left: 1rem;
+    right: 1rem;
+  }
 }
-
 
 // estilização
 
 header {
+  height: auto;
+  width: auto;
+
+  section {
     height: auto;
     width: auto;
+    nav.navbar {
+      height: 4.5rem;
+      width: auto;
+      padding: {
+        left: 5rem;
+        right: 5rem;
+      }
 
-    section {
-        height: auto;
-        width: auto;
-        nav.navbar {
-            height: 4.5rem;
-            width: auto;
-            padding: {
-                left: 5rem;
-                right: 5rem;
-            }
-            
-            a.navbar-brand {
-                @include espacamento();
-                font: {
-                    size: $titleFont;
-                    style: none;
-                }
-                text: {
-                    decoration: none;
-                }
-                color: $Bone;
-                &:hover {
-                    color: $Isabeline;
-                }
-            }
-
-            div.collapse {
-                div.navbar-nav{
-                    a.nav-item {
-                        font: {
-                            size: $NormalFont;
-                        }
-
-                        color: $Bone;
-
-                        &:hover {
-                            color: $Isabeline;
-                        }
-                    }
-                }
-            }
+      a.navbar-brand {
+        @include espacamento();
+        font: {
+          size: $titleFont;
+          style: none;
         }
+        text: {
+          decoration: none;
+        }
+        color: $Bone;
+        &:hover {
+          color: $Isabeline;
+        }
+      }
+
+      div.collapse {
+        div.navbar-nav {
+          a.nav-item {
+            font: {
+              size: $NormalFont;
+            }
+
+            color: $Bone;
+
+            &:hover {
+              color: $Isabeline;
+            }
+          }
+        }
+      }
     }
+  }
 }
 
 main {
-    section#tabela {
-        margin-top: 1rem;
+  section#tabela {
+    margin-top: 1rem;
 
-        th {
-            font-size: $NormalFont;
-        }
+    th {
+      font-size: $NormalFont;
+    }
 
-        div#table_id_wrapper {
-            div.row {
-
-                div.col-sm-12 {
-
-                    div#table_id_length {
-                        label {
-                            font: {
-                                size: $NormalFont;
-                            }
-
-                            select {
-
-                                option {
-                                    font: {
-                                        size: $NormalFont;
-                                    }
-
-                                    &:hover {
-                                        background: $PhilippineBlue;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    div#table_id_filter {
-                        label {
-                            font: {
-                                size: $NormalFont;
-                            }
-                        }
-                    }
-
-                    table#table_id {
-
-                        thead {
-                            tr {
-                                
-                                th {
-                                    font: {
-                                        size: $NormalFont;
-                                    }
-                                    text: {
-                                        align: center;
-                                    }
-                                }
-                            }
-                        }
-
-                        tbody {
-
-                            tr.odd {
-                                background: {
-                                    color: $BrandeisBlueTransparent;
-                                }
-                            }
-
-                            tr.even {
-                            }
-                            
-                            tr {
-                                font: {
-                                    size: $NormalFont;
-                                }
-
-                                span {
-                                    font: {
-                                        size: $NormalFont;
-                                    }
-                                    margin: {
-                                        left: 3rem;
-                                    }
-                                }
-
-                                a {
-                                    font: {
-                                        size: calc($NormalFont - .3rem);
-                                    }
-                                    color: $PhilippineBlue;
-                                }
-                            }
-
-                            td {
-                                font: {
-                                    size: $NormalFont
-                                }
-                                height: 7rem;
-                            }
-
-                            text-align: center;
-                        }
-
-
-                    }
-
-                    div#table_id_info {
-                        font: {
-                            size: $NormalFont;
-                        }
-                    }
-
-                    div#table_id_paginate {
-                        ul.pagination {
-                            li {
-                                font: {
-                                    size: $NormalFont;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        div.divBuscas {
-        margin: {
-            bottom: 1rem;
-        }
-
-        select {
-            font: {
+    div#table_id_wrapper {
+      div.row {
+        div.col-sm-12 {
+          div#table_id_length {
+            label {
+              font: {
                 size: $NormalFont;
-                }
+              }
+
+              select {
                 option {
-                    font: {
-                        size: $NormalFont;
-                    }
+                  font: {
+                    size: $NormalFont;
+                  }
+
+                  &:hover {
+                    background: $PhilippineBlue;
+                  }
                 }
+              }
             }
+          }
 
-        button#cleanBtn {
-            font: {
+          div#table_id_filter {
+            label {
+              font: {
                 size: $NormalFont;
+              }
             }
-            
-        }    
-        }
+          }
 
-        span#categorias{
-            margin-bottom: 1rem;
+          table#table_id {
+            thead {
+              tr {
+                th {
+                  font: {
+                    size: $NormalFont;
+                  }
+                  text: {
+                    align: center;
+                  }
+                }
+              }
+            }
+
+            tbody {
+              tr.odd {
+                background: {
+                  color: $BrandeisBlueTransparent;
+                }
+              }
+
+              tr.even {
+              }
+
+              tr {
+                font: {
+                  size: $NormalFont;
+                }
+
+                span {
+                  font: {
+                    size: $NormalFont;
+                  }
+                  margin: {
+                    left: 3rem;
+                  }
+                }
+
+                a {
+                  font: {
+                    size: calc($NormalFont - 0.3rem);
+                  }
+                  color: $PhilippineBlue;
+                }
+              }
+
+              td {
+                font: {
+                  size: $NormalFont;
+                }
+                height: 7rem;
+              }
+
+              text-align: center;
+            }
+          }
+
+          div#table_id_info {
+            font: {
+              size: $NormalFont;
+            }
+          }
+
+          div#table_id_paginate {
+            ul.pagination {
+              li {
+                font: {
+                  size: $NormalFont;
+                }
+              }
+            }
+          }
         }
-    }    
+      }
+    }
+
+    div.divBuscas {
+      margin: {
+        bottom: 1rem;
+      }
+
+      select {
+        font: {
+          size: $NormalFont;
+        }
+        option {
+          font: {
+            size: $NormalFont;
+          }
+        }
+      }
+
+      button#cleanBtn {
+        font: {
+          size: $NormalFont;
+        }
+      }
+    }
+
+    span#categorias {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .equalWidth {
-    width: 12rem;
-    margin-top: .5rem;
+  width: 12rem;
+  margin-top: 0.5rem;
 }
 
 input.form-control {
-    height: 3.5rem;
-    font: {
-        size: $NormalFont;
-    }
+  height: 3.5rem;
+  font: {
+    size: $NormalFont;
+  }
 }
 
 select.form-control {
-    height: 3rem;
-    width: auto;
-    margin: {
-        left: 1rem;
-        right: 1rem;
-    }
+  height: 3rem;
+  width: auto;
+  margin: {
+    left: 1rem;
+    right: 1rem;
+  }
 }

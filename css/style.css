@@ -25,17 +25,17 @@ header section nav.navbar a.navbar-brand {
   font-size: 2.4rem;
   font-style: none;
   text-decoration: none;
-  color: #E0DDCF;
+  color: #e0ddcf;
 }
 header section nav.navbar a.navbar-brand:hover {
-  color: #F1F0EA;
+  color: #f1f0ea;
 }
 header section nav.navbar div.collapse div.navbar-nav a.nav-item {
   font-size: 1.6rem;
-  color: #E0DDCF;
+  color: #e0ddcf;
 }
 header section nav.navbar div.collapse div.navbar-nav a.nav-item:hover {
-  color: #F1F0EA;
+  color: #f1f0ea;
 }
 
 main section#tabela {
@@ -51,7 +51,7 @@ main section#tabela div#table_id_wrapper div.row div.col-sm-12 div#table_id_leng
   font-size: 1.6rem;
 }
 main section#tabela div#table_id_wrapper div.row div.col-sm-12 div#table_id_length label select option:hover {
-  background: #003FA6;
+  background: #003fa6;
 }
 main section#tabela div#table_id_wrapper div.row div.col-sm-12 div#table_id_filter label {
   font-size: 1.6rem;
@@ -75,7 +75,7 @@ main section#tabela div#table_id_wrapper div.row div.col-sm-12 table#table_id tb
 }
 main section#tabela div#table_id_wrapper div.row div.col-sm-12 table#table_id tbody tr a {
   font-size: 1.3rem;
-  color: #003FA6;
+  color: #003fa6;
 }
 main section#tabela div#table_id_wrapper div.row div.col-sm-12 table#table_id tbody td {
   font-size: 1.6rem;
