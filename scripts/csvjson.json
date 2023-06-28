@@ -322,73 +322,169 @@
     "Termo": "Biblioteca",
     "Definição": "Coleção de subprogramas usados no desenvolvimento de softwares. A sua principal função é facilitar a programação, garantindo mais agilidade e menos erros.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, conceitos, fundamentos, infraestrutura"
+    "Tags": "ferramentas, conceitos, fundamentos, infraestrutura",
+    "link1": {
+      "titulo": "O que é uma biblioteca?",
+      "link": "https://coodesh.com/blog/dicionario/o-que-e-biblioteca/"
+      },
+    "link2": {
+      "titulo": "Biblioteca",
+      "link": "https://pt.wikipedia.org/wiki/Biblioteca_(computa%C3%A7%C3%A3o)"
+      }
   },
   {
     "Termo": "Bit",
     "Definição": "Menor parcela de informação processada por um computador; algarismo do sistema binário que somente pode assumir as formas 0 ou 1.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos"
+    "Tags": "conceitos, fundamentos",
+    "link1": {
+      "titulo": "O que é um Bit?",
+      "link": "https://www.tecmundo.com.br/programacao/227-o-que-e-bit-.htm"
+      },
+    "link2": {
+      "titulo": "Bit",
+      "link": "https://pt.wikipedia.org/wiki/Bit"
+      }
   },
   {
     "Termo": "Bool",
     "Definição": "Um booleano, em ciência da computação, é um tipo de dado lógico que pode ter apenas um de dois valores possíveis: verdadeiro ou falso (true or false).",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos"
+    "Tags": "conceitos, fundamentos",
+    "link1": {
+      "titulo": "O que é um Bool",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Boolean"
+      },
+    "link2": {
+      "titulo": "Boolean",
+      "link": "https://pt.wikipedia.org/wiki/Boolean"
+      }
   },
   {
     "Termo": "Bootstrap",
     "Definição": "Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, biblioteca, framework"
+    "Tags": "ferramentas, biblioteca, framework",
+    "link1": {
+      "titulo": "O que é Bootstrap?",
+      "link": "https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)"
+      },
+    "link2": {
+      "titulo": "Bootstrap: o que é, como usar e para que serve esse framework",
+      "link": "https://blog.betrybe.com/bootstrap/"
+      }
   },
   {
     "Termo": "Branch",
     "Definição": "Uma branch é uma ramificação do código principal de um repositório Git. Serve como um novo caminho para a evolução do código e pode posteriormente ser incorporado de volta ao código principal. É muito útil para trabalho em equipe e a construção de funções em paralelo.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos"
+    "Tags": "conceitos, fundamentos",
+    "link1": {
+      "titulo": "O que é uma Branch?",
+      "link": "https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch"
+      },
+    "link2": {
+      "titulo": "Branches no Git",
+      "link": "https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras"
+      }
   },
   {
     "Termo": "Browser / Navegador",
     "Definição": "Browser ou Navegador é um programa criado para permitir a navegação pela internet. É o que torna possível o acesso a sites, como um caminho que leva até o que você procura na rede.",
     "Dificuldade": "Iniciante",
-    "Tags": "programas"
+    "Tags": "programas",
+    "link1": {
+      "titulo": "O que é um Browser / Navegador?",
+      "link": "https://tecnoblog.net/responde/o-que-e-um-browser/"
+      },
+    "link2": {
+      "titulo": "Exemplo: Navegador Mozilla Firefox",
+      "link": "https://www.mozilla.org/pt-BR/firefox/new/"
+      }
   },
   {
     "Termo": "Bug",
     "Definição": "Defeito, falha ou erro no código de um programa que provoca seu mau funcionamento.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos"
+    "Tags": "conceitos, fundamentos",
+    "link1": {
+      "titulo": "O que é um bug e por que ocorre?",
+      "link": "https://rockcontent.com/br/blog/o-que-e-bug/"
+      },
+    "link2": {
+      "titulo": "Bug",
+      "link": "https://pt.wikipedia.org/wiki/Falha_(tecnologia)"
+      }
   },
   {
     "Termo": "Byte",
     "Definição": "É uma unidade de informação digital equivalente a oito bits.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, fundamentos"
+    "Tags": "conceitos, fundamentos",
+    "link1": {
+      "titulo": "O que Byte?",
+      "link": "https://www.significados.com.br/byte/"
+      },
+    "link2": {
+      "titulo": "Byte",
+      "link": "https://pt.wikipedia.org/wiki/Byte"
+      }
   },
   {
     "Termo": "C",
     "Definição": "Linguagem de programação compilada de propósito geral para computadores voltada para o desenvolvimento de sistemas.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, ferramentas"
+    "Tags": "conceitos, ferramentas",
+    "link1": {
+      "titulo": "Sobre C",
+      "link": "https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)"
+      },
+    "link2": {
+      "titulo": "Documentação C",
+      "link": "https://learn.microsoft.com/pt-br/cpp/c-language/?view=msvc-170"
+      }
   },
   {
     "Termo": "C#",
     "Definição": "É uma linguagem de programação orientada a objetos, que foi desenvolvida pela Microsoft e faz parte da plataforma .NET. Embora a linguagem C# tenha sido criada do zero, foi baseada na linguagem C++ e tem muitos elementos da linguagem Pascal e Java.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, ferramentas"
+    "Tags": "conceitos, ferramentas",
+    "link1": {
+      "titulo": "Sobre C#",
+      "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/"
+      },
+    "link2": {
+      "titulo": "Documentação C#",
+      "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+      }
   },
   {
     "Termo": "C++",
     "Definição": "C++ é uma linguagem de programação criada à partir da linguagem C, oferecendo inúmeras funcionalidades adicionais como programação orientada a objetos.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, ferramentas"
+    "Tags": "conceitos, ferramentas",
+    "link1": {
+      "titulo": "Sobre C++",
+      "link": "https://pt.wikipedia.org/wiki/C%2B%2B"
+      },
+    "link2": {
+      "titulo": "Documentação C++",
+      "link": "https://learn.microsoft.com/pt-br/cpp/cpp/?view=msvc-170"
+      }
   },
   {
     "Termo": "Cache",
     "Definição": "É um componente de software ou hardware que garantem que requisições frequentes sejam retornadas com maior velocidade. Exemplos: cache de memória, web cache e memoization.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é Bootstrap?",
+      "link": "https://blog.betrybe.com/bootstrap/"
+      },
+    "link2": {
+      "titulo": "Bootstrap",
+      "link": "https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)"
+      }
   },
   {
     "Termo": "Call Stack",
