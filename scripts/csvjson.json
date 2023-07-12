@@ -1180,7 +1180,7 @@
     "Termo": "Microserviços",
     "Definição": "Microsserviços são uma abordagem arquitetônica e organizacional do projeto de software na qual o software consiste em pequenas aplicações independentes que se comunicam usando APIs bem definidas.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos, back-end, infraestrutura",
+    "Tags": "conceitos, back-end, infraestrutura"
   },
   {
     "Termo": "Middleware",
@@ -1696,7 +1696,7 @@
     "Termo": "Static Site Generator",
     "Definição": "Static Site Generator é uma aplicação que cria uma página HTML à partir de um template feito em Markdown, JSON e outros.",
     "Dificuldade": "Intermediário",
-    "Tags": "ferramentas, front-end",
+    "Tags": "ferramentas, front-end"
   },
   {
     "Termo": "String",
