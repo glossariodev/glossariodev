@@ -478,61 +478,125 @@
     "Dificuldade": "Iniciante",
     "Tags": "conceitos",
     "link1": {
-      "titulo": "O que é Bootstrap?",
-      "link": "https://blog.betrybe.com/bootstrap/"
+      "titulo": "O que é Cache?",
+      "link": "https://pt.wikipedia.org/wiki/Cache"
       },
     "link2": {
-      "titulo": "Bootstrap",
-      "link": "https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)"
+      "titulo": "Por que esse banco de dados é importante!",
+      "link": "https://br.godaddy.com/blog/o-que-e-cache/"
       }
   },
   {
     "Termo": "Call Stack",
     "Definição": "Mecanismo do interpretador de uma linguagem que organiza o funcionamento do script quando são chamadas muitas funções, qual função está sendo executada no momento, e quais serão chamadas dentro de alguma função.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Call stack (Pilha de chamadas)",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Call_stack"
+      },
+    "link2": {
+      "titulo": "JavaScript Call Stack",
+      "link": "https://www.javascripttutorial.net/javascript-call-stack/"
+      }
   },
   {
     "Termo": "Catch",
     "Definição": "Catch marca um bloco de declarações para testar (try), e especifica uma ação ou resposta, caso uma exceção (erro ou condição inesperada) seja obtida.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "try...catch",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch"
+      },
+    "link2": {
+      "titulo": "Exemplo em C++",
+      "link": "https://learn.microsoft.com/pt-br/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170"
+      }
   },
   {
     "Termo": "CD",
     "Definição": "Continuous Deployment, é uma prática de desenvolvimento de software na qual cada alteração de código passa por todo o pipeline e é colocada em produção automaticamente, facilitando e evitando erros na implantação de novas versões.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, infraestrutura"
+    "Tags": "conceitos, infraestrutura",
+    "link1": {
+      "titulo": "O que é continuous deployment?",
+      "link": "https://gaea.com.br/o-que-e-continuous-deployment/"
+      },
+    "link2": {
+      "titulo": "CD",
+      "link": "https://www.objective.com.br/insights/continuous-deployment/"
+      }
   },
   {
     "Termo": "CDN",
     "Definição": "Uma CDN é uma rede de servidores que distribui conteúdo de um servidor de \"origem\" no mundo todo, armazenando o conteúdo em cache próximo ao local em que cada usuário final está acessando a Internet por meio de um dispositivo habilitado para Web.",
     "Dificuldade": "Intermediário",
-    "Tags": "infraestrutura, conceitos"
+    "Tags": "infraestrutura, conceitos",
+    "link1": {
+      "titulo": "O que é uma CDN?",
+      "link": "https://aws.amazon.com/pt/what-is/cdn/"
+      },
+    "link2": {
+      "titulo": "Rede de fornecimento de conteúdo",
+      "link": "https://pt.wikipedia.org/wiki/Rede_de_fornecimento_de_conte%C3%BAdo"
+      }
   },
   {
     "Termo": "Char",
     "Definição": "O tipo char serve para armazenar um caractere. O tipo char aloca 1 byte de memória para guardar nosso caractere.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "Tipo Char",
+      "link": "https://learn.microsoft.com/pt-br/cpp/c-language/type-char?view=msvc-170"
+      },
+    "link2": {
+      "titulo": "Sintaxe e tipos",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types"
+      }
   },
   {
     "Termo": "Checkbox",
     "Definição": "Checkbox é um tipo de caixa de seleção usada para permitir que um usuário selecione múltiplas opções de um conjunto.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, front-end"
+    "Tags": "conceitos, front-end",
+    "link1": {
+      "titulo": "Tipo de Input: Checkbox",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input/checkbox"
+      },
+    "link2": {
+      "titulo": "Caixa de seleção",
+      "link": "https://pt.wikipedia.org/wiki/Caixa_de_sele%C3%A7%C3%A3o"
+      }
   },
   {
     "Termo": "CI",
     "Definição": "Automação para a integração de uma mudança de código em um ambiente compartilhado com a equipe do projeto para a validação e testes (manuais e automatizados) da mudança proposta. Agiliza o processo de testes, validação e auxilia na redução de erros.",
     "Dificuldade": "Profissional",
-    "Tags": "conceitos, infraestrutura"
+    "Tags": "conceitos, infraestrutura",
+    "link1": {
+      "titulo": "O que significa integração contínua?",
+      "link": "https://aws.amazon.com/pt/devops/continuous-integration/"
+      },
+    "link2": {
+      "titulo": "Integração contínua",
+      "link": "https://pt.wikipedia.org/wiki/Integra%C3%A7%C3%A3o_cont%C3%ADnua"
+      }
   },
   {
     "Termo": "Classe",
     "Definição": "Uma classe é uma forma de definir um tipo de dado em uma linguagem orientada a objeto. Ela é formada por dados e comportamentos. Para definir os dados são utilizados os atributos, e para definir o comportamento são utilizados métodos.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "Principais conceitos da Programação Orientada a Objetos",
+      "link": "https://www.devmedia.com.br/principais-conceitos-da-programacao-orientada-a-objetos/32285"
+      },
+    "link2": {
+      "titulo": "Classe",
+      "link": "https://pt.wikipedia.org/wiki/Classe_(programa%C3%A7%C3%A3o)"
+      }
   },
   {
     "Termo": "Cliente",
@@ -550,31 +614,67 @@
     "Termo": "Cloud",
     "Definição": "É uma tecnologia que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da internet. É uma alternativa para você acessar dados importantes de qualquer computador, em qualquer lugar.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceito, ferramentas, infraestrutura"
+    "Tags": "conceito, ferramentas, infraestrutura",
+    "link1": {
+      "titulo": "O que é e para que serve?",
+      "link": "https://www.salesforce.com/br/cloud-computing/"
+      },
+    "link2": {
+      "titulo": "AWS Cloud",
+      "link": "https://aws.amazon.com/pt/what-is-cloud-computing/"
+      }
   },
   {
     "Termo": "CMS",
     "Definição": "CMS é um software que permite a criação, edição e gerenciamento de conteúdo em um site. É usado por profissionais de marketing, web design e desenvolvimento de sites para criar e manter sites complexos",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "Por que implementar na sua empresa?",
+      "link": "https://rockcontent.com/br/blog/cms/"
+      },
+    "link2": {
+      "titulo": "CMS",
+      "link": "https://tecnoblog.net/responde/o-que-e-cms/"
+      }
   },
   {
     "Termo": "Code Review",
     "Definição": "Consiste na prática de fazer revisões no código de uma determinada aplicação. Normalmente, essa revisão é feita por um desenvolvedor que não o autor.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Importância de fazer essa revisão",
+      "link": "https://www.knowsolution.com.br/code-review-importancia-fazer-revisao/"
+      },
+    "link2": {
+      "titulo": "Revisão de Código",
+      "link": "https://pt.wikipedia.org/wiki/Revis%C3%A3o_de_c%C3%B3digo"
+      }
   },
   {
     "Termo": "Codebase",
     "Definição": "A codebase é o conjunto de todos os arquivos de código fonte que um projeto de software possui.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é codebase?",
+      "link": "https://pt.theastrologypage.com/codebase"
+      },
+    "link2": {
+      "titulo": "Codebase",
+      "link": "https://en.wikipedia.org/wiki/Codebase"
+      }
   },
   {
     "Termo": "Código Fonte",
     "Definição": "Código-fonte são as linhas de programação que formam um software em sua forma original. Inicialmente, um programador \"escreve\" o programa em uma certa linguagem.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Código-fonte",
+      "link": "https://pt.wikipedia.org/wiki/C%C3%B3digo-fonte"
+      }
   },
   {
     "Termo": "Comando",
@@ -586,19 +686,39 @@
     "Termo": "Commit",
     "Definição": "Pode ser referir a bancos de dados ou repositórios Git. Para ambos, um commit é tornar um conjunto de mudanças provisórias em permanentes.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é Commit e como usar.",
+      "link": "https://blog.geekhunter.com.br/o-que-e-commit-e-como-usar-commits-semanticos/"
+      },
+    "link2": {
+      "titulo": "Commit",
+      "link": "https://en.wikipedia.org/wiki/Commit_(data_management)"
+      }
   },
   {
     "Termo": "Compilador",
     "Definição": "Um compilador é um programa de sistema que traduz um programa descrito em uma linguagem de alto nível para um programa equivalente em código de máquina para um processador.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "O que é um Compilador?",
+      "link": "https://blog.betrybe.com/tecnologia/compilador-o-que-e/"
+      },
+    "link2": {
+      "titulo": "Compilador",
+      "link": "https://pt.wikipedia.org/wiki/Compilador"
+      }
   },
   {
-    "Termo": "Complexidade de Algoritimos",
+    "Termo": "Complexidade de Algoritmos",
     "Definição": "Complexidade de algoritmo é a estudo e a medição de quanto tempo e quanto de memória um algoritmo gasta de acordo com tamanhos diferentes de entrada.",
     "Dificuldade": "Profissional",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Introdução à Complexidade de Algoritmos",
+      "link": "https://medium.com/nagoya-foundation/introdu%C3%A7%C3%A3o-%C3%A0-complexidade-de-algoritmos-4a9c237e4ecc"
+      }
   },
   {
     "Termo": "Condicional",
@@ -610,19 +730,43 @@
     "Termo": "Containers",
     "Definição": "Container é um delimitador abstrato, ou seja, um objeto que contém outros objetos que podem ser incluídos ou removidos dinamicamente. Pode se referir tanto a um pedaço de código quanto a infraestrutura (Docker).",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, ferramentas"
+    "Tags": "conceitos, ferramentas",
+    "link1": {
+      "titulo": "O que são contêineres?",
+      "link": "https://cloud.google.com/learn/what-are-containers?hl=pt-br"
+      },
+    "link2": {
+      "titulo": "Container: o que é e por que aprender sobre",
+      "link": "https://blog.xpeducacao.com.br/o-que-e-container/"
+      }
   },
   {
     "Termo": "Cookie",
     "Definição": "Um pequeno arquivo que é salvo no computador das pessoas para ajudar a armazenar as preferências e outras informações usadas nas páginas da Web que elas visitam.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, front-end"
+    "Tags": "conceitos, front-end",
+    "link1": {
+      "titulo": "O que são cookies?",
+      "link": "https://www.kaspersky.com.br/resource-center/definitions/cookies"
+      },
+    "link2": {
+      "titulo": "Cookie",
+      "link": "https://pt.wikipedia.org/wiki/Cookie_(inform%C3%A1tica)"
+      }
   },
   {
     "Termo": "CORS",
     "Definição": "O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre diferentes origens. O CORS é uma especificação doO CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre diferentes origens. O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.\n W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Cross-Origin Resource Sharing (CORS)",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS"
+      },
+    "link2": {
+      "titulo": "CORS",
+      "link": "https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing"
+      }
   },
   {
     "Termo": "CPU",
@@ -634,61 +778,129 @@
     "Termo": "Criptografia",
     "Definição": "Conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados depois de serem descriptografados. São exemplos de algorítmos criptográficos.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é criptografia?",
+      "link": "https://aws.amazon.com/pt/what-is/cryptography/"
+      },
+    "link2": {
+      "titulo": "Criptografia: tipos, exemplos e importância",
+      "link": "https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/criptografia/"
+      }
   },
   {
     "Termo": "CRM",
     "Definição": "CRM é um software que ajuda as empresas a gerenciar e acompanhar as interações com os seus clientes. CRM também pode ajudar as empresas a gerenciar suas vendas.",
     "Dificuldade": "Intermediário",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "CRM: O que é? ",
+      "link": "https://www.salesforce.com/br/crm/"
+      },
+    "link2": {
+      "titulo": "Tudo sobre Customer Relationship Management",
+      "link": "https://resultadosdigitais.com.br/vendas/o-que-e-crm/"
+      }
   },
   {
     "Termo": "CRUD",
     "Definição": "CRUD (Create, Read, Update, Delete) é um acrônimo para as maneiras de se operar em informação armazenada. É um mnemônico para as quatro operações básicas de armazenamento persistente. Em geral se refere a um sistema ou parte de um sistema que contenha apenas essas operações.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é um CRUD?",
+      "link": "https://coodesh.com/blog/dicionario/o-que-e-crud/"
+      }
   },
   {
     "Termo": "CSP",
     "Definição": "Content Security Policy é uma camada de segurança para detectar e mitigar alguns tipo de ataques.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Políticas de Segurança de Conteúdo",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CSP"
+      },
+    "link2": {
+      "titulo": "Exemplo em PHP",
+      "link": "https://jssantos.net/2020/04/o-que-e-http-content-security-policy-e-como-utilizar-no-php/?doing_wp_cron=1689432755.5100250244140625000000"
+      }
   },
   {
     "Termo": "CSS",
     "Definição": "Trata-se de uma linguagem para definir o visual e o layout de um website.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, linguagens, front-end"
+    "Tags": "conceitos, linguagens, front-end",
+    "link1": {
+      "titulo": "O que é CSS",
+      "link": "https://www.totvs.com/blog/developers/o-que-e-css/"
+      },
+    "link2": {
+      "titulo": "Documentação CSS",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+      }
   },
   {
     "Termo": "Day.js",
     "Definição": "Day. js é uma pequena biblioteca JavaScript que nos permite parsear, manipular, validar e mostrar datas e horários em navegadores modernos.",
     "Dificuldade": "Intermediário",
-    "Tags": "ferramentas, front-end"
+    "Tags": "ferramentas, front-end",
+    "link1": {
+      "titulo": "Lidando com o tempo usando o Day.js",
+      "link": "https://imasters.com.br/desenvolvimento/lidando-com-o-tempo-usando-o-day-js"
+      }
   },
   {
     "Termo": "DDD",
     "Definição": "Sigla para Domain-Driven Design, que consiste em um padrão de modelagem para softwares, cujo objetivo é facilitar a implementação de regras e processos complexos, além da divisão de responsabilidades por camadas.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Conceito de DDD",
+      "link": "https://medium.com/beelabacademy/domain-driven-design-vs-arquitetura-em-camadas-d01455698ec5"
+      },
+    "link2": {
+      "titulo": "Domain-Driven Design",
+      "link": "https://en.wikipedia.org/wiki/Domain-driven_design"
+      }
   },
   {
     "Termo": "Debug",
     "Definição": "Também chamado de debugging ou, em português, depuração, é o nome dado ao processo de encontrar e remover os erros que podem acometer softwares e hardwares. Um debugger é um programa que auxilia esse processo.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Debug",
+      "link": "https://pt.wikipedia.org/wiki/Depura%C3%A7%C3%A3o"
+      },
+    "link2": {
+      "titulo": "Importância é como fazer.",
+      "link": "https://awari.com.br/o-que-e-debug/"
+      }
   },
   {
     "Termo": "Dependência",
     "Definição": "Biblioteca ou serviço externo que um software precisa para funcionar corretamente.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Princípios de Orientação a Objetos",
+      "link": "https://www.devmedia.com.br/abstracoes-e-dependencias-principios-de-orientacao-a-objetos/19142"
+      }
   },
   {
     "Termo": "Deployment",
     "Definição": "O verbo deploy, em inglês, quer dizer implantar. Fazer um deploy, em termos práticos, significa colocar no ar alguma aplicação.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, infraestrutura"
+    "Tags": "conceitos, infraestrutura",
+    "link1": {
+      "titulo": "O que é deploy, para que serve, vantagens e como fazer deploy",
+      "link": "https://kenzie.com.br/blog/o-que-e-deploy/"
+      },
+    "link2": {
+      "titulo": "Deployment",
+      "link": "https://pt.wikipedia.org/wiki/Implanta%C3%A7%C3%A3o_de_software"
+      }
   },
   {
     "Termo": "Dev",
@@ -700,25 +912,57 @@
     "Termo": "Diagrama de caso de uso",
     "Definição": "Na Linguagem de modelagem unificada (UML), o diagrama de caso de uso resume os detalhes dos usuários do seu sistema (também conhecidos como atores) e as interações deles com o sistema. Para criar um, usa um conjunto de símbolos e conectores especializados.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é, como fazer e exemplos",
+      "link": "https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml"
+      },
+    "link2": {
+      "titulo": "Software para fazer Diagramas",
+      "link": "https://astah.net/downloads/"
+      }
   },
   {
     "Termo": "Django",
     "Definição": "O Django é um framework de código aberto e gratuito, escrito na linguagem de programação Python. Com ele, o desenvolvedor é capaz de construir aplicações para a web com alta produtividade.",
     "Dificuldade": "Intrermediário",
-    "Tags": "framework, back-end"
+    "Tags": "framework, back-end",
+    "link1": {
+      "titulo": "O que é Django, para que serve e como usar este framework.",
+      "link": "https://kenzie.com.br/blog/django/"
+      },
+    "link2": {
+      "titulo": "Django",
+      "link": "https://www.treinaweb.com.br/blog/o-que-e-django"
+      }
   },
   {
     "Termo": "DNS",
     "Definição": "O DNS (Domain Name System é Sistema de nome de domínio) é um serviço que converte nomes de domínio legíveis por humanos.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Introdução ao DNS",
+      "link": "https://aws.amazon.com/pt/route53/what-is-dns/"
+      },
+    "link2": {
+      "titulo": "DNS",
+      "link": "https://rockcontent.com/br/blog/dns/"
+      }
   },
   {
     "Termo": "Docker",
     "Definição": "Plataforma open source que facilita a criação e administração de ambientes isolados. Ele possibilita o empacotamento de uma aplicação ou ambiente dentro de um container, se tornando portátil para qualquer outro host que contenha o Docker instalado.",
     "Dificuldade": "Intermediário",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "O Que é Docker e Como Ele Funciona?",
+      "link": "https://www.hostinger.com.br/tutoriais/o-que-e-docker"
+      },
+    "link2": {
+      "titulo": "Documentação Docker",
+      "link": "https://stack.desenvolvedor.expert/appendix/docker/oquee.html"
+      }
   },
   {
     "Termo": "Documentos de Requisitos",
@@ -730,49 +974,97 @@
     "Termo": "DOM",
     "Definição": "O Modelo de Objeto de Documento (DOM) é uma representação estruturada do documento HTML como uma árvore. A maior parte dos navegadores utilizam o DOM e boa parte da lógica de programação de uma interface web é a manipulação do DOM.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, front-end"
+    "Tags": "conceitos, front-end",
+    "link1": {
+      "titulo": "Modelo de Objeto de Documento (DOM)",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model"
+      }
   },
   {
     "Termo": "Double",
     "Definição": "Tipo de dado. Armazena números com ponto flutuante, com precisão dupla, ou seja normalmente possui o dobro da capacidade de uma variável do tipo float.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "Tipos de dados por valor e por referência em Java",
+      "link": "https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293"
+      }
   },
   {
     "Termo": "Dry",
     "Definição": "Don't repeat yourself ou também conhecido pelo acrônimo DRY é um conceito de programação de computadores o qual propõe que cada pDon't repeat yourself ou também conhecido pelo acrônimo DRY é um conceito de programação de computadores o qual propõe que cada porção de conhecimento em um sistema deve possuir uma representação única, de autoridade e livre de ambiguidades em todo o sistema.\nDon't repeat yourself ou também conhecido pelo acrônimo DRY é um conceito de programação de computadores o qual propõe que cada porção de conhecimento em um sistema deve possuir uma representação única, de autoridade e livre de ambiguidades em todo o sistema.\nDon't repeat yourself ou também conhecido pelo acrônimo DRY é um conceito de programação de computadores o qual propõe que cada porção de conhecimento em um sistema deve possuir uma representação única, de autoridade e livre de ambiguidades em todo o sistema.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Don't repeat yourself",
+      "link": "https://pt.wikipedia.org/wiki/Don%27t_repeat_yourself"
+      }
   },
   {
     "Termo": "EC2",
     "Definição": "O Amazon Elastic Compute Cloud oferece uma capacidade de computação na AWS (máquina virtual). O uso do Amazon EC2 elimina a necessidade de investir em hardware inicialmente.",
     "Dificuldade": "Intermediário",
-    "Tags": "ferramentas, infraestrutura"
+    "Tags": "ferramentas, infraestrutura",
+    "link1": {
+      "titulo": "Amazon EC2",
+      "link": "https://aws.amazon.com/pt/ec2/"
+      },
+    "link2": {
+      "titulo": "Documentação EC2",
+      "link": "https://docs.aws.amazon.com/pt_br/ec2/"
+      }
   },
   {
     "Termo": "Elasticsearch",
     "Definição": "Mecanismo de busca e análise de dados distribuído, gratuito e aberto para todos os tipos de dados, incluindo textuais, numéricos, geoespaciais, estruturados e não estruturados.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "O que é Elasticsearch",
+      "link": "https://aws.amazon.com/pt/what-is/elasticsearch/"
+      },
+    "link2": {
+      "titulo": "Wiki",
+      "link": "https://en.wikipedia.org/wiki/Elasticsearch"
+      }
   },
   {
     "Termo": "Electron",
     "Definição": "O Electron é um framework de código aberto para desenvolvimento de aplicações desktop utilizando tecnologias web.",
     "Dificuldade": "Intermediário",
-    "Tags": "framework, ferramentas"
+    "Tags": "framework, ferramentas",
+    "link1": {
+      "titulo": "Electron",
+      "link": "https://www.electronjs.org/"
+      },
+    "link2": {
+      "titulo": "Documentação",
+      "link": "https://www.electronjs.org/docs/latest/"
+      }
   },
   {
     "Termo": "Encoding",
     "Definição": "É uma forma de representar letras e símbolos em forma númerica, permitindo armazenar, transformar e transmití-los usando computadores.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é Encoding? Mais exemplos em Python.",
+      "link": "https://www.hashtagtreinamentos.com/o-que-e-encoding-python"
+      },
+    "link2": {
+      "titulo": "Wiki Encoding",
+      "link": "https://pt.wikipedia.org/wiki/Codifica%C3%A7%C3%A3o_de_caracteres"
+      }
   },
   {
     "Termo": "End to End",
     "Definição": "É uma maneira de realizar testes automatizados que abrangem todas as camadas de um sistema. Simula a maneira como um usuário real interage com o sistema.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é End-to-End",
+      "link": "https://www.cursospm3.com.br/glossario/end-to-end/"
+      }
   },
   {
     "Termo": "Entidade",
@@ -784,13 +1076,25 @@
     "Termo": "ERP",
     "Definição": "ERP é um sistema de informação integrado que fornece um quadro abrangente para apoiar a gestão empresarial. O objetivo do ERP é integrar todas as áreas de uma empresa em um único sistema, permitindo que as informações flua livremente entre todos os departamentos.",
     "Dificuldade": "Profissional",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "O que é ERP?",
+      "link": "https://www.sap.com/brazil/products/erp/what-is-erp.html"
+      },
+    "link2": {
+      "titulo": "Wiki ERP",
+      "link": "https://pt.wikipedia.org/wiki/Sistema_integrado_de_gest%C3%A3o_empresarial"
+      }
   },
   {
     "Termo": "Escalar",
     "Definição": "Uma variável é escalar se ela for um número, uma string ou outro tipo dos ditos \"primitivos\" em várias linguagens - que é distinto de uma estrutura com mais lógica e conjunto de operaçães como um objeto de uma classe ou um array.",
     "Dificuldade": "Inciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "Variáveis escalares",
+      "link": "https://docs.oracle.com/cd/E19253-01/820-0446/chp-variables-1/index.html"
+      }
   },
   {
     "Termo": "Escopo de Projeto",
@@ -808,31 +1112,67 @@
     "Termo": "Express",
     "Definição": "Express é um popular framework web estruturado, escrito em JavaScript que roda sobre o ambiente Node.JS.",
     "Dificuldade": "Intermediário",
-    "Tags": "framework, back-end"
+    "Tags": "framework, back-end",
+    "link1": {
+      "titulo": "O que é Express?",
+      "link": "https://www.treinaweb.com.br/blog/o-que-e-o-express-js"
+      },
+    "link2": {
+      "titulo": "Documentação",
+      "link": "https://expressjs.com/pt-br/starter/installing.html"
+      }
   },
   {
     "Termo": "Figma",
     "Definição": "O Figma é uma ferramenta de design para interfaces, que oferece a possibilidade de trabalho colaborativo, ou seja, diversos membros de uma equipe podem explorar e atuar em um mesmo projeto. Ele funciona 100% online, como uma aplicação web.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, front-end"
+    "Tags": "ferramentas, front-end",
+    "link1": {
+      "titulo": "Site oficial",
+      "link": "https://www.figma.com/"
+      },
+    "link2": {
+      "titulo": "Introdução ao Figma",
+      "link": "https://www.designerd.com.br/tutorial-como-usar-o-figma/"
+      }
   },
   {
     "Termo": "Float",
     "Definição": "Armazena números maiores que o tipo int e também números reais.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "Documentação Float em C",
+      "link": "https://learn.microsoft.com/pt-br/cpp/c-language/type-float?view=msvc-170"
+      },
+    "link2": {
+      "titulo": "Float ou Int?",
+      "link": "https://mundoprojetado.com.br/variavel-mais-rapida-float-int/"
+      }
   },
   {
     "Termo": "Fluxograma",
     "Definição": "É uma forma padronizada eficaz para representar os passos lógicos de um determinado processamento (algoritmos).",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é Fluxograma?",
+      "link": "https://pt.wikipedia.org/wiki/Fluxograma"
+      }
   },
   {
     "Termo": "For",
     "Definição": "O comando for permite que um certo trecho de programa seja executado repetidas vezes.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "Exemplo de repetição em C",
+      "link": "https://www.inf.pucrs.br/~pinho/LaproI/ComandosDeRepeticao/Repeticao.html"
+      },
+    "link2": {
+      "titulo": "Estrutura de repetição for",
+      "link": "https://linguagemc.com.br/a-estrutura-de-repeticao-for-em-c/"
+      }
   },
   {
     "Termo": "Form",
@@ -844,19 +1184,39 @@
     "Termo": "Formik",
     "Definição": "É uma biblioteca para ReactJS que facilita a criação de formulários.",
     "Dificuldade": "Iniciante",
-    "Tags": "bibliotecas, front-end"
+    "Tags": "bibliotecas, front-end",
+    "link1": {
+      "titulo": "Site oficial",
+      "link": "https://formik.org/"
+      },
+    "link2": {
+      "titulo": "Tutoriais Formik",
+      "link": "https://formik.org/docs/tutorial"
+      }
   },
   {
     "Termo": "Framework",
     "Definição": "Frameworks é uma espécie de modelo que provê funcionalidades e componentes que facilitam a construção de aplicações. Existem vários tipos de frameworks, cada um com objetivos diferentes como: reusabilidade, produtividade, padrão de arquitetura.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é um Framework?",
+      "link": "https://balta.io/blog/o-que-e-um-framework"
+      },
+    "link2": {
+      "titulo": "Framework",
+      "link": "https://pt.wikipedia.org/wiki/Framework"
+      }
   },
   {
     "Termo": "Front-End",
     "Definição": "O desenvolvedor front-end é responsável pela interface de uma aplicação web.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos, front-end"
+    "Tags": "conceitos, front-end",
+    "link1": {
+      "titulo": "Desenvolvedor Web Front-End e o que ele faz?",
+      "link": "https://ebaconline.com.br/blog/desenvolvedor-front-end-o-que-faz"
+      }
   },
   {
     "Termo": "Full Stack",
@@ -868,19 +1228,43 @@
     "Termo": "Gist",
     "Definição": "O Gist é um compartilhador de pequenos trechos de código.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas"
+    "Tags": "ferramentas",
+    "link1": {
+      "titulo": "Github Gist",
+      "link": "https://gist.github.com/"
+      },
+    "link2": {
+      "titulo": "O que é Github Gist ?",
+      "link": "https://douglasabnovato.medium.com/o-que-%C3%A9-github-gist-b9cf68d8122e"
+      }
   },
   {
     "Termo": "Git",
     "Definição": "O git é um software desenvolvido para o controle de alterações do código de um projeto, facilitando que vários desenvolvedores trabalhem ao mesmo tempo, de maneira rápida e eficiente.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, fundamentos, infraestrutura"
+    "Tags": "ferramentas, fundamentos, infraestrutura",
+    "link1": {
+      "titulo": "O que é Git?",
+      "link": "https://www.atlassian.com/br/git/tutorials/what-is-git"
+      },
+    "link2": {
+      "titulo": "Git",
+      "link": "https://git-scm.com/"
+      }
   },
   {
     "Termo": "GitHub",
     "Definição": "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. É como uma plataforma social colaborativa, onde programadores e empresas colocam seus projetos para o desenvolvimento do código.",
     "Dificuldade": "Iniciante",
-    "Tags": "ferramentas, infraestrutura"
+    "Tags": "ferramentas, infraestrutura",
+    "link1": {
+      "titulo": "Github",
+      "link": "https://github.com/"
+      },
+    "link2": {
+      "titulo": "Como usar",
+      "link": "https://www.hostinger.com.br/tutoriais/o-que-github"
+      }
   },
   {
     "Termo": "Github Action",
