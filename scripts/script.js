@@ -1,6 +1,5 @@
 $(document).ready(function () {
-  $("input.form-control").prop("disabled", true);
-
+  $('#tabela').show();
   // Método AJAX para obtenção de dados JSON
   $.ajax({
     url: "./scripts/csvjson.json",
@@ -144,4 +143,11 @@ $(document).ready(function () {
       console.error("Falha ao ler o arquivo JSON: " + error);
     },
   });
+
+  $('#menuSobre').click(() => {
+    $('#tabela').hide();
+
+    $('main').load('./pages/sobre.html')
+  }); 
+  
 });
