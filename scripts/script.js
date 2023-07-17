@@ -72,44 +72,47 @@ $(document).ready(function () {
 
       $("#table_id").on("click", ".nivel, .categorias", function () {
         var clickedText = $(this).text().trim();
-        var searchBox = $(".form-control, .form-control-sm");
+        var searchBox = $("input.form-control, input.form-control-sm");
         var currentSearchValue = searchBox.val().trim();
 
         // Verifica se o termo já está presente na caixa de pesquisa
         if (!currentSearchValue.includes(clickedText)) {
-          // Limpa o valor da caixa de pesquisa antes de adicionar o novo termo
-          searchBox.val("");
-
           // Adiciona o valor clicado à caixa de pesquisa
-          searchBox.val(clickedText);
+          searchBox.val(searchBox.val() + " " + clickedText);
 
           table.search(searchBox.val()).draw();
           updateClearButton();
         }
       });
 
-      $("#selectDificuldade").change(function () {
+      $("#selectDificuldade, #selectCategoria").change(function (e) {
         var selectedValue = $(this).val();
-        var searchBox = $(".form-control, .form-control-sm");
+        var oldValue = $(this).attr('old');
+        var searchBox = $("input.form-control, input.form-control-sm");
         var currentSearchValue = searchBox.val().trim();
 
+        if (selectedValue != oldValue && currentSearchValue.includes(oldValue)) {
+          currentSearchValue = currentSearchValue.replace(oldValue, "").trim();
+          searchBox.val(currentSearchValue);
+        }
         // Verifica se o termo já está presente na caixa de pesquisa
         if (!currentSearchValue.includes(selectedValue)) {
           // Adiciona o valor selecionado à caixa de pesquisa
           searchBox.val(currentSearchValue + " " + selectedValue);
-
-          table.search(searchBox.val()).draw();
-          updateClearButton();
         }
+        
+        table.search(searchBox.val()).draw();
+        updateClearButton();
+        $(this).attr('old', selectedValue);
       });
 
-      $(".form-control, .form-control-sm").on("input", function () {
+      $("input.form-control, input.form-control-sm").on("input", function () {
         table.search($(this).val()).draw();
         updateClearButton();
       });
 
       function updateClearButton() {
-        var searchBoxValue = $(".form-control, .form-control-sm").val().trim();
+        var searchBoxValue = $("input.form-control, input.form-control-sm").val().trim();
         var clearButton = $("#clearBtn");
 
         if (
@@ -124,7 +127,7 @@ $(document).ready(function () {
       }
 
       $("#cleanBtn").on("click", function () {
-        $(".form-control, .form-control-sm").val("").trigger("input");
+        $("input.form-control, input.form-control-sm, #selectDificuldade, #selectCategoria").val("").trigger("input");
       });
 
       var urlParams = new URLSearchParams(window.location.search);
@@ -132,7 +135,7 @@ $(document).ready(function () {
 
       if (termoPesquisa) {
         var conteudoDecodificado = decodeURIComponent(termoPesquisa);
-        $(".form-control, .form-control-sm")
+        $("input.form-control, input.form-control-sm")
           .val(conteudoDecodificado)
           .trigger("input");
       }

@@ -42,15 +42,29 @@
 
     <main>
         <section class="container" id="tabela">
-            <div class="divBuscas cointainer d-flex justify-content-end">
-                <p>Selecione uma dificuldade: </p>
+            <div class="divBuscas cointainer d-flex" style="padding-bottom: 0px">
+                <p>Filtrar por dificuldade: </p>
                 <select name="selectDificuldade" id="selectDificuldade" class="form-control">
                     <option value=""></option>
                     <option value="Iniciante">Iniciante</option>
                     <option value="Intermediário">Intermediário</option>
                     <option value="Profissional">Profissional</option>
                 </select>
-                <button class="btn  btn-warning" id="cleanBtn">Limpar</button>
+                <button class="btn  btn-warning" style="margin-left: auto" id="cleanBtn">Limpar</button>
+            </div>            
+            <div class="divBuscas cointainer d-flex">
+                <p>Filtrar por categoria: &nbsp;</p>
+                <select name="selectCategoria" id="selectCategoria" class="form-control">
+                    <option value=""></option>
+                    <option value="conceitos">conceitos</option>
+                    <option value="fundamentos">fundamentos</option>
+                    <option value="biblioteca">biblioteca</option>
+                    <option value="framework">framework</option>
+                    <option value="ferramentas">ferramentas</option>
+                    <option value="front-end">front-end</option>
+                    <option value="back-end">back-end</option>
+                    <option value="infraestrutura">infraestrutura</option>
+                </select>
             </div>            
             <table id="table_id" class="display container-fluid">
             </table>
