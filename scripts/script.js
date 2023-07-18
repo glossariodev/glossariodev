@@ -1,6 +1,5 @@
 $(document).ready(function () {
-  $("input.form-control").prop("disabled", true);
-
+  $('#tabela').show();
   // Método AJAX para obtenção de dados JSON
   $.ajax({
     url: "./scripts/csvjson.json",
@@ -18,7 +17,7 @@ $(document).ready(function () {
             title: "Termo",
             className: "noVis",
             render: function (data, type, row) {
-              return `<span class="mx-auto container font-weight-bold text-center" id="termo">${data}</span>`;
+              return `<span class="mx-auto container font-weight-bold text-center termo">${data}</span>`;
             },
           },
           {
@@ -31,7 +30,7 @@ $(document).ready(function () {
               let titulo1 = row.link1 ? row.link1.titulo : "";
               let titulo2 = row.link2 ? row.link2.titulo : "";
 
-              return `<span class="mx-auto text-justify text-center"  id="definicao">${data}</span><br><a  href="${link1}" target="_blank">${titulo1}</a><br><a  href="${link2}" target="_blank">${titulo2}</a>`;
+              return `<span class="mx-auto text-justify text-center definicao">${data}</span><br><a href="${link1}" target="_blank">${titulo1}</a><br><a href="${link2}" target="_blank">${titulo2}</a>`;
             },
           },
           {
@@ -41,11 +40,11 @@ $(document).ready(function () {
             render: function (data, type, row) {
               switch (data) {
                 case "Iniciante":
-                  return `<span class="text-justify equalWidth text-center btn btn-outline-dark" id="nivel" data-dificuldade="Iniciante">Iniciante</span>`;
+                  return `<span class="text-justify equalWidth text-center btn btn-outline-dark nivel" data-dificuldade="Iniciante">Iniciante</span>`;
                 case "Intermediário":
-                  return `<span class="text-center equalWidth text-justify btn btn-outline-dark"  id="nivel" data-dificuldade="Intermediário">Intermediário</span>`;
+                  return `<span class="text-center equalWidth text-justify btn btn-outline-dark nivel" data-dificuldade="Intermediário">Intermediário</span>`;
                 case "Profissional":
-                  return `<span class="text-center equalWidth text-justify btn btn-outline-dark"  id="nivel" data-dificuldade="Profissional">Profissional</span>`;
+                  return `<span class="text-center equalWidth text-justify btn btn-outline-dark nivel" data-dificuldade="Profissional">Profissional</span>`;
                 default:
                   return data;
               }
@@ -59,7 +58,7 @@ $(document).ready(function () {
               const categorias = data.split(",");
               let tagsHTML = "";
               categorias.forEach(function (categoria) {
-                tagsHTML += `<span class="text-justify equalWidth text-center btn btn-outline-dark btn-group-sm" id="categorias">${categoria}</span> `;
+                tagsHTML += `<span class="text-justify equalWidth text-center btn btn-outline-dark btn-group-sm categorias">${categoria}</span> `;
               });
               return tagsHTML;
             },
@@ -70,34 +69,49 @@ $(document).ready(function () {
       var selectedDificuldades = new Set();
       var selectedTags = new Set();
 
-      $("#table_id").on("click", "span#categorias, span#nivel", function () {
+      $("#table_id").on("click", ".nivel, .categorias", function () {
         var clickedText = $(this).text().trim();
-        var searchBox = $(".form-control, .form-control-sm");
+        var searchBox = $("input.form-control, input.form-control-sm");
         var currentSearchValue = searchBox.val().trim();
 
         // Verifica se o termo já está presente na caixa de pesquisa
         if (!currentSearchValue.includes(clickedText)) {
-          // Verifica se a caixa de pesquisa já contém algum valor
-          if (currentSearchValue.length > 0) {
-            // Adiciona o valor clicado à caixa de pesquisa separado por vírgula
-            searchBox.val(currentSearchValue + " " + clickedText);
-          } else {
-            // Define o valor clicado como o valor da caixa de pesquisa
-            searchBox.val(clickedText);
-          }
+          // Adiciona o valor clicado à caixa de pesquisa
+          searchBox.val(searchBox.val() + " " + clickedText);
 
           table.search(searchBox.val()).draw();
           updateClearButton();
         }
       });
 
-      $(".form-control, .form-control-sm").on("input", function () {
+      $("#selectDificuldade, #selectCategoria").change(function (e) {
+        var selectedValue = $(this).val();
+        var oldValue = $(this).attr('old');
+        var searchBox = $("input.form-control, input.form-control-sm");
+        var currentSearchValue = searchBox.val().trim();
+
+        if (selectedValue != oldValue && currentSearchValue.includes(oldValue)) {
+          currentSearchValue = currentSearchValue.replace(oldValue, "").trim();
+          searchBox.val(currentSearchValue);
+        }
+        // Verifica se o termo já está presente na caixa de pesquisa
+        if (!currentSearchValue.includes(selectedValue)) {
+          // Adiciona o valor selecionado à caixa de pesquisa
+          searchBox.val(currentSearchValue + " " + selectedValue);
+        }
+        
+        table.search(searchBox.val()).draw();
+        updateClearButton();
+        $(this).attr('old', selectedValue);
+      });
+
+      $("input.form-control, input.form-control-sm").on("input", function () {
         table.search($(this).val()).draw();
         updateClearButton();
       });
 
       function updateClearButton() {
-        var searchBoxValue = $(".form-control, .form-control-sm").val().trim();
+        var searchBoxValue = $("input.form-control, input.form-control-sm").val().trim();
         var clearButton = $("#clearBtn");
 
         if (
@@ -112,7 +126,7 @@ $(document).ready(function () {
       }
 
       $("#cleanBtn").on("click", function () {
-        $(".form-control, .form-control-sm").val("").trigger("input");
+        $("input.form-control, input.form-control-sm, #selectDificuldade, #selectCategoria").val("").trigger("input");
       });
 
       var urlParams = new URLSearchParams(window.location.search);
@@ -120,25 +134,20 @@ $(document).ready(function () {
 
       if (termoPesquisa) {
         var conteudoDecodificado = decodeURIComponent(termoPesquisa);
-        $(".form-control, .form-control-sm")
+        $("input.form-control, input.form-control-sm")
           .val(conteudoDecodificado)
           .trigger("input");
       }
-
-      $("#table_id").on("click", "span#nivel", function () {
-        var clickedDificuldade = $(this).attr("data-dificuldade");
-
-        if (selectedDificuldades.has(clickedDificuldade)) {
-          selectedDificuldades.delete(clickedDificuldade);
-        } else {
-          selectedDificuldades.add(clickedDificuldade);
-        }
-
-        updateClearButton();
-      });
     },
     error: function (jqxhr, textStatus, error) {
       console.error("Falha ao ler o arquivo JSON: " + error);
     },
   });
+
+  $('#menuSobre').click(() => {
+    $('#tabela').hide();
+
+    $('main').load('./pages/sobre.html')
+  }); 
+  
 });

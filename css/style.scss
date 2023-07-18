@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
 //declaração de variaveis
 
 $NormalFont: 1.6rem;
 $SmallFont: 1.4rem;
 $Subtitle1Font: 1.8rem;
 $Subtitle2Font: 2rem;
-$titleFont: 2.4rem;
+$titleFont: 2.2rem;
+ 
+$titulo: 'Libre Baskerville', arial;
+$normal: 'Vollkorn', serif;
 
 $BrandeisBlue: #0060f1;
 $PhilippineBlue: #003fa6;
@@ -18,7 +24,10 @@ $Isabeline: #f1f0ea;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font: {
+    family: $normal;
+    size: 62.5%;
+  }
 }
 
 // mixins, keyframes, etc
@@ -52,6 +61,7 @@ header {
         font: {
           size: $titleFont;
           style: none;
+          family: $titulo;
         }
         text: {
           decoration: none;
@@ -65,6 +75,7 @@ header {
       div.collapse {
         div.navbar-nav {
           a.nav-item {
+            cursor: pointer;
             font: {
               size: $NormalFont;
             }
@@ -244,4 +255,96 @@ select.form-control {
     left: 1rem;
     right: 1rem;
   }
+}
+
+div.divBuscas {
+  padding: {
+    top: 2rem;
+    bottom: 3rem;
+  }
+  p {
+    font: {
+      size: $NormalFont;
+    }
+  }
+}
+
+
+// estilização página sobre
+
+
+section#sobreSection {
+  #sobreTitle {
+    font: {
+      size: $titleFont;
+      family: $titulo;
+    }
+
+    padding: {
+      top: 1.5rem;
+      bottom: 1rem;
+    }
+
+    color: $BrandeisBlue;
+
+  }
+
+  p {
+    font: {
+      size: $NormalFont;
+      family: $normal;
+    } 
+    span.nome {
+      font: {
+        size: $Subtitle2Font;
+        weight: bold;
+      }
+
+      color: $PhilippineBlue;
+    }
+
+    span.ocupacao {
+      font: {
+        size: $SmallFont;
+        style: italic;
+      }
+
+      color: $BrandeisBlue;
+    }
+  }
+  
+  div#colaboradores {
+    padding: {
+      left: 1rem;
+    }
+
+    p {
+      padding: {
+        bottom: 1rem;
+        top: .5rem;
+      }
+    }
+    
+  }
+
+  div#description {
+    padding: {
+      left: 1rem;
+    }
+  }
+
+  h2#colaboradoresTitle {
+    padding: {
+      top: .5rem;
+      bottom: 1rem;
+
+      font: {
+        size: $Subtitle1Font;
+        family: $titulo;
+      }
+
+      color: $BrandeisBlue;
+    }
+  }
+
 }
