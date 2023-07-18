@@ -2218,13 +2218,29 @@
     "Termo": "UX",
     "Definição": "UX é a sigla para User Experience (Experiência do Usuário). É o conjunto de atividades realizadas durante o desenvolvimento de um produto (digital ou não) que tem como objetivo criar eUX é a sigla para User Experience (Experiência do Usuário). É o conjunto de atividades realizadas durante o desenvolvimento de um produto (digital ou não) que tem como objetivo criar experiências positivas para os usuários, aumentando a satisfação, a fidelidade e o engajamento.\nUX é a sigla para User Experience (Experiência do Usuário). É o conjunto de atividades realizadas durante o desenvolvimento de um produto (digital ou não) que tem como objetivo criar experiências positivas para os usuários, aumentando a satisfação, a fidelidade e o engajamento.\nxperiências positivas para os usuários",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é UX, User Experience?",
+      "link": "https://www.zendesk.com.br/blog/o-que-e-ux/"
+      },
+    "link2": {
+      "titulo": "Por que UX Design é importante?",
+      "link": "https://www.hostinger.com.br/tutoriais/ux-o-que-e-user-experience"
+      }
   },
   {
     "Termo": "Vetor",
     "Definição": "Um vetor é uma variável que pode conter mais de um valor. Em outras palavras, um vetor é um array de valores.",
     "Dificuldade": "Iniciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "Vetores",
+      "link": "https://www.ime.usp.br/~pf/algoritmos/aulas/array.html"
+      },
+    "link2": {
+      "titulo": "Vetores e matrizes",
+      "link": "https://www.inf.ufpr.br/roberto/ci067/04_vet.html"
+      }
   },
   {
     "Termo": "Visual Studio Code",
@@ -2236,60 +2252,136 @@
     "Termo": "VPN",
     "Definição": "Uma VPN (Virtual Private Network) é um método usado para adicionar segurança e privacidade às suas conexões na internet. Além disso, permite que você se conecte à internet em um endereço IP diferente, o que o torna mais difícil de ser rastreado e bloqueado por sites e serviços.",
     "Dificuldade": "Iniciante",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é uma VPN e como funciona?",
+      "link": "https://www.kaspersky.com.br/resource-center/definitions/what-is-a-vpn"
+      },
+    "link2": {
+      "titulo": "NordVPN",
+      "link": "https://nordvpn.com/pt-br/what-is-a-vpn/"
+      }
   },
   {
     "Termo": "VueJS",
     "Definição": "VueJS é uma biblioteca de JavaScript criada com o objetivo de facilitar a criação de interfaces de usuário. A biblioteca foi criada por Evan You, e é mantida por uma comunidade de colaboradores.",
     "Dificuldade": "Intermediário",
-    "Tags": "biblioteca, front-end"
+    "Tags": "biblioteca, front-end",
+    "link1": {
+      "titulo": "Documentação VueJS",
+      "link": "https://br.vuejs.org/v2/guide/index.html"
+      },
+    "link2": {
+      "titulo": "Vue JS: o que é, como funciona e vantagens",
+      "link": "https://blog.geekhunter.com.br/vue-js-so-vejo-vantagens-e-voce/"
+      }
   },
   {
     "Termo": "Web Service",
     "Definição": "Um web service é um serviço online que pode ser acessado por meio de um protocolo de rede. Ele pode fornecer informações ou realizar tarefas em nome do usuário.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos, back-end, front-end"
+    "Tags": "conceitos, back-end, front-end",
+    "link1": {
+      "titulo": "Web service: o que é, como funciona, para que serve?",
+      "link": "https://www.opensoft.pt/web-service/"
+      },
+    "link2": {
+      "titulo": "Wiki",
+      "link": "https://pt.wikipedia.org/wiki/Web_service"
+      }
   },
   {
     "Termo": "WebAssembly",
     "Definição": "WebAssembly é um novo tipo de código que pode ser executado pelos navegadores web de forma mais rápida e segura. Ele foi criado para permitir que aplicativos complexos sejam executados com velocidade semelhante à de um aplicativo nativo.",
     "Dificuldade": "Profissional",
-    "Tags": "ferramentas, front-end"
+    "Tags": "ferramentas, front-end",
+    "link1": {
+      "titulo": "O que é WebAssembly?",
+      "link": "https://developer.mozilla.org/pt-BR/docs/WebAssembly"
+      },
+    "link2": {
+      "titulo": "Por que ele afeta todos os desenvolvedores web.",
+      "link": "https://imasters.com.br/back-end/o-que-e-webassembly-e-por-que-ele-afeta-todos-os-desenvolvedores-web"
+      }
   },
   {
     "Termo": "Webhook",
     "Definição": "Um webhook é uma forma de fornecer dados de notificação de forma instantânea a outros aplicativos quando um evento acontece. Eventos podem ser qualquer coisa, como um post de blog ou uma atualização de status de um pedido.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é, importância, como criar e implementar.",
+      "link": "https://blog.vindi.com.br/o-que-sao-webhooks/"
+      },
+    "link2": {
+      "titulo": "Como ele funciona?",
+      "link": "https://rockcontent.com/br/blog/o-que-e-um-webhook/"
+      }
   },
   {
     "Termo": "Webpack",
     "Definição": "Webpack é um empacotador de módulos JavaScript. Ele transforma os seus módulos JavaScript em um único arquivo (geralmente chamado de \"bundle.js\") que pode ser incluído no seu documento HTML.",
     "Dificuldade": "Profissional",
-    "Tags": "ferramentas, front-end"
+    "Tags": "ferramentas, front-end",
+    "link1": {
+      "titulo": "O que é Webpack?",
+      "link": "https://coodesh.com/blog/dicionario/o-que-e-webpack/"
+      }
   },
   {
     "Termo": "WebSockets",
     "Definição": "WebSockets é uma tecnologia que permite a comunicação full-duplex (bidirecional) em tempo real entre o navegador e o servidor.",
     "Dificuldade": "Intermediário",
-    "Tags": "ferramentas, back-end, front-end"
+    "Tags": "ferramentas, back-end, front-end",
+    "link1": {
+      "titulo": "WebSockets",
+      "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API"
+      },
+    "link2": {
+      "titulo": "O que são e como criá-los?",
+      "link": "https://appmaster.io/pt/blog/o-que-sao-websockets-e-como-cria-los"
+      }
   },
   {
     "Termo": "While",
     "Definição": "O comando while é um comando de loop que avalia uma condição e, se ela for verdadeira, executa um bloco de código. O While loop continuará executando até que a condição se torne falsa.",
     "Dificuldade": "Inciante",
-    "Tags": "fundamentos"
+    "Tags": "fundamentos",
+    "link1": {
+      "titulo": "While e Do/While",
+      "link": "https://www.devmedia.com.br/while-e-do-while-lacos-de-repeticoes-estrutura-da-linguagem-parte-1/18870"
+      },
+    "link2": {
+      "titulo": "Instrução do-while (C++)",
+      "link": "https://learn.microsoft.com/pt-br/cpp/cpp/do-while-statement-cpp?view=msvc-170"
+      }
   },
   {
     "Termo": "Yagni",
     "Definição": "You aren't gonna need it\" (YAGNI) é um princípio da Extreme Programming (XP) que afirma que o programador não deve adicionar nenhuma funcionalidade até que ela seja realmente necessária.",
     "Dificuldade": "Intermediário",
-    "Tags": "conceitos"
+    "Tags": "conceitos",
+    "link1": {
+      "titulo": "O que é Yagni?",
+      "link": "https://www.macoratti.net/15/12/net_yagni1.htm"
+      },
+    "link2": {
+      "titulo": "Wiki",
+      "link": "https://pt.wikipedia.org/wiki/YAGNI"
+      }
   },
   {
     "Termo": "Yup",
     "Definição": "YupJs é uma biblioteca de validação JavaScript para uso com o React. Ele pode ser usado para validar o formulário antes de enviá-lo para o servidor ou para fazer validações mais complexas no lado do cliente.",
     "Dificuldade": "Intermediário",
-    "Tags": "biblioteca, front-end"
+    "Tags": "biblioteca, front-end",
+    "link1": {
+      "titulo": "NPM Yup",
+      "link": "https://www.npmjs.com/package/yup"
+      },
+    "link2": {
+      "titulo": "jsDoc YUP",
+      "link": "https://www.jsdocs.io/package/yup"
+      }
   }
 ]
